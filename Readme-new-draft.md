@@ -125,4 +125,4 @@ Please Note: Target month and bounty offer may change while their status is _Not
 
 **Status** : Is the status of the bounty. It can be _Assigned_ if some team is already working on it, or _Not Assigned_ if nobody is working on it yet.
 
-**Amount Awarded** : As the bounty program rules, the amount awarded may vary from the _Bounty Amount_. Here we show how much it was finally awarded.### Installation
+**Amount Awarded** : As the bounty program rules, the amount awarded may vary from the _Bounty Amount_. Here we show how much it was finally awarded.
