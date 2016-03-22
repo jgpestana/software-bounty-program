@@ -6,13 +6,18 @@ We are running a bounty program to complete the projected functionality as soon 
 
 # Types of projects 
 
-1.	**GUI/UX:** The goal pursued is to analyze the problem and design a good solution for it. For instance, the team that decides to take a project of this kind shall describe exhaustively the functionality, graphic interfaces and user's experience related to the solution. The deliverables expected are: functionality document, mockups, graphic design components.
+1. **Use Case Analisys:** Here we identify the actors and use cases involved. The deliverables expected are: Spreadsheet with platform, actors, functionality group, use cases, MVP, versions, etc.
 
-2.	**Analysis:** The target is the development of the engineering that makes possible to implement the solution designed in GUI/UX project, in other words, identify which components are required and how interact with each other. The deliverables expected are: components and workflows uploaded in fermat.org
+Reference video: https://www.youtube.com/watch?v=YU_HqeML3-w
+Spreadsheet view link: https://docs.google.com/spreadsheets/d/12EIEfwvLflUu2h81ZSQnwg-OwqC752bxXO8XnC8bEQU/edit?usp=sharing
 
-3.	**Implementation:** It is the execution of the plan described in the GUI/UX and analysis' projects. It requires developing and testing the solution. The deliverables expected are: working solution after alpha testing stage.
+2.	**GUI/UX:** Here we design the user interfaces and user's experience. The deliverables expected are: mockups and graphic design of every single screen of the app.
 
-The projects described above could be and should be done for different teams, because each of them requires and unique set of skills.
+3.	**Fermat Analysis:** Here we identify Fermat components and their workflows. Also Platforms and there relationships. The deliverables expected are: platforms, layers, components and workflows uploaded to fermat.org.
+
+4.	**Implementation:** Here we write the code, write unit tests, write documentation, integrate the components, and do integration testing. The deliverables expected are: working solution ready for alpha stage.
+
+The projects described are expected to be done by different teams because each team requires and unique set of skills.
 
 ## Sign-up - License Agreement - (READ FIRST)
 Anyone who adds value to the Project in any form needs to sign up a Contribution License Agreement as the first step to become part of the project. To do that, please follow the steps described [here](https://github.com/bitDubai/contribution-program/tree/master/license-agreements/README.md) 
