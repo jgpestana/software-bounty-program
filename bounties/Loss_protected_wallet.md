@@ -124,7 +124,7 @@ La transacción es enviada al modulo Crypto Vault a traves del modulo Outgoing D
 
 ## Timeline
 
-Sobre la base de la carga de trabajo y los recursos actuales disponibles, la fecha de entrega de esta recompensa (bounty) será **31 de Marzo**.
+Sobre la base de la carga de trabajo y los recursos actuales disponibles, la fecha de entrega de esta recompensa (bounty) será **15 de Abril**.
 
 ## Evaluation
 
