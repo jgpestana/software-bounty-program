@@ -20,11 +20,8 @@ For this version we will use **Tokenly** as external system, Tokenly is a websit
 
 ### Art Platform
 ​
-### New Android App: Fan song wallet.
-This **Wallet** will allow the fan to review a list of artist connected to the fan that have an active account in **Tokenly**. Also, it must show available songs on the local storage device and display songs purchased through **Tokenly**.
-
 ### New Android Sub-App: Music Player.
-This will be an sub app that plays a song obtained through the TKY platform..
+This sub app must show available songs on the local storage device purchased through **Tokenly** site and play these songs.
 ​
 ### New Android Sub-App: Artist Community
 This sub app will provide a list of Artists Actors registered on the platform and the functionality to connect a Fermat actor with any of the artist displayed in the list.
@@ -35,14 +32,11 @@ This sub app will provide a list of Fans actors registered on the platform and t
 ### New Android Sub-App: Artist Identity
 This sub app will provide the functionality to create an identity as an Artist on the platform.
 ​
-### New Android Sub-App: Fan Community
+### New Android Sub-App: Fan Identity
 This sub app will provide the functionality to create an identity as an Fan on the platform.
-​
-### New Wallet Module: Fan song wallet
-Wallet module for Fan song wallet.
 
-### New Sub app Module: Fan song wallet
-Sub app module for Fan song wallet.
+### New Sub app Module: Music Player
+Sub app module for Music Player.
 ​
 ### New Sub app Module: Artist Community
 Sub app module for Artist Community.
@@ -62,16 +56,24 @@ This plugin must have the ability to create an Artist identity in Fermat.
 ### New Identity: Fan.
 This plugin must have the ability to create an Fan identity in Fermat.
 ​
-### New Actor Network Service: Artist.
+### New Actor Connection: Artist.
 This plugin should be able to allow connections to a remote Artist and return the list of Artists connected to the system.
 ​
-### New Actor Network Service: Fan.
+### New Actor Connection: Fan.
 This plugin should be able to allow connections to a remote Fan and return the list of fans connected to the system.
 
-### New External API: Tokenly.
-This plugin should be able to allow interaction between **ART** platform and **TKY** platform.
+### New Actor Network Service: Artist.
+This plugin should be able to allow send and receive messages to a remote Artist indicating acceptance or rejection connections.
+​
+### New Actor Network Service: Fan.
+This plugin should be able to allow send and receive messages to a remote Fan indicating acceptance or rejection connections.
+
 
 ### TKY Platform
+
+
+### New Android App: Fan song wallet.
+This **Wallet** will allow the fan to review a list of artist connected to the fan that have an active account in **Tokenly**.
 
 ### New Android Sub-App: Tokenly Identity
 This sub app will provide the functionality to create tokenly identity on the platform.
@@ -79,14 +81,20 @@ This sub app will provide the functionality to create tokenly identity on the pl
 ### New Sub app Module: Tokenly Identity
 Sub app module for Tokenly Identity.
 
-### New Wallet: Tokenly Wallet
-This plugin must register credits and debits of songs obtained through **Tokenly** public API.
-​
-### New World: Tokenly
-This plugin must implement all the functionality to connect with **Tokenly** public API.
+### New Sub app Module: Fan wallet
+Module for Fan wallet.
 
-### New Identity: Tokenly.
-This plugin must have the ability to create a Tokenly identity in Fermat.
+### New Wallet: Tokenly Wallet
+This plugin must register songs downloaded through **Tokenly** public API.
+​
+### New Identity: Artist.
+This plugin must have the ability to create a Tokenly Artist identity in Fermat.
+
+### New Identity: Fan.
+This plugin must have the ability to create a Tokenly Fan identity in Fermat.
+
+### New External API: Tokenly.
+This plugin must implement all the functionality to connect with **Tokenly** public API.
 
 ***Once approved, the design will be completed in dev.fermat.org flows with much more detail***
      
@@ -103,7 +111,7 @@ To be considered success this bounty must pass the following tests:
 * Create a Fan identity.
 * Create an Artist identity.
 * Create a Tokenly Identity.
-* Link Tokenly Identity with any ART identity.
+* Link any Tokenly Identity with any ART identity.
 * Display artists connected to a Fan.
 * Allow the device to route the URL to the external management system of tokens.
 * Display the list of songs purchased through the external management system of tokens.
@@ -117,3 +125,4 @@ The following limitations when evaluating the platform should be considered:
 ​
 ​
 * The state of the P2P Fermat platform.
+* The state of Tokenly Public API.
