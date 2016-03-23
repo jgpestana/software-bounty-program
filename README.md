@@ -43,7 +43,7 @@ Below you can see a table with all current bounties available and their status.
 | Type | Project |  Target Month / Phase | Bounty Amount [USD] | To be paid in | Status | Assigned Team | Started / Finished | Amount Awarded / Payed [USD] |
 |:---:|:---:|:---:|---:|:---:|:---:|:---:|:---:|:--:|---:|---:|
 |All|Crypto Currency Platform|Jan / Alpha | 5,000 | Fermat Tokens | Assigned / Beta | Coin Diggers | Sep 2015 / Jan 2016 | 5,000 | 
-|All|Chat Platform| Jan / Alpha  | 5,000 | Fermat Tokens | Assigned / ![alt text](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/stamp-delayed.png "Delayed")
+|All|Chat Platform| Jan / Alpha  | 5,000 | Fermat Tokens | Assigned / ![alt text](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/stamp-delayedq.png "Delayed")
 |Gabriel, José & Miguel | Dec 2015 | | 
 |All|Crypto Broker Platform|Jan / Alpha | 15,000 | Fermat Tokens | Assigned / Delayed| Nelson & Cía | Oct 2015 | | 
 |All|[Digital Assets Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital-Asset-Platform.md)| Jan / Alpha | 10,000 | Fermat Tokens | Assigned / Delayed | Thunder | Aug 2015 / Jan 2016 | 10,000 | 
