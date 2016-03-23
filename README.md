@@ -56,7 +56,7 @@ Below you can see a table with all current bounties available and their status.
 |All|[Fermat Token Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Fermat-Token-Platform.md)|  | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |All|[Cloud Server Monitor](https://github.com/Rart3001/bounty-program/blob/master/bounties/P2P_Cloud_Server_v1.md)| March 15th | 2,500 | Fermat Tokens | Roberto / Alpha | | Mar 2016 | 2,500 | 
 |All|Fermat P2P Network v1|  Mar 2016 | 20,000 | Fermat Tokens | Assigned Implementing ![Under Construction](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/under-construction.png "Under Construction")| Roberto & Leon | Apr 2016 | | 
-|All|Loss Protected Wallet| Mar 2016 | 10,000 | Fermat Tokens | Assigned Implementing | Natalia | Mar 2016 | | 
+|All|Loss Protected Wallet| Mar 2016 | 10,000 | Fermat Tokens | Assigned Implementing ![Under Construction](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/under-construction.png "Under Construction") | Natalia | Mar 2016 | | 
 |All|Fermat Blockchain Identities|  | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |All|Fermat P2P Network v2..n| | 130,000 | Fermat Tokens | Not Assigned | | | | 
 |All|Fermat Blockchain| | 100,000 | Fermat Tokens | Not Assigned | | | | 
