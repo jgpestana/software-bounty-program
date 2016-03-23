@@ -9,6 +9,20 @@ Anyone who adds value to the Project in any form needs to sign up a Contribution
 
 Now, after signing up,  you can follow the Bounty program procedure below.
 
+## Software Release Life Cycle
+
+A software release life cycle is the sum of the stages of development and maturity for a piece of computer software: ranging from its initial development to its eventual release, and including updated versions of the released version to help improve software or fix bugs still present in the software.
+
+We adhere to the following definitions:
+
+* [Pre-Alpha] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha)
+* [Alpha] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Alpha)
+* [Beta] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta)
+* [Release Candidate] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Release_candidatee)
+* [Release] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Release)
+
+
+
 ## Procedure
 
 1. Grab a Team and apply for one of the projects listed whose status reads as _Not Assigned_ (if you are already a member of the bitDubai network you can only participate on the projects you are assigned to, if it happens that that project has a bounty then you are automatically participating on the bounty-program together with the team that is working on that.)
@@ -97,16 +111,4 @@ Please Note: Target month and bounty offer may change while their status is _Not
 **Status** : Is the status of the bounty. It can be _Assigned_ if some team is already working on it, or _Not Assigned_ if nobody is working on it yet.
 
 **Amount Awarded** : As the bounty program rules, the amount awarded may vary from the _Bounty Amount_. Here we show how much it was finally awarded.
-
-## Software Release Life Cycle
-
-A software release life cycle is the sum of the stages of development and maturity for a piece of computer software: ranging from its initial development to its eventual release, and including updated versions of the released version to help improve software or fix bugs still present in the software.
-
-We adhere to the following definitions:
-
-* [Pre-Alpha] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha)
-* [Alpha] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Alpha)
-* [Beta] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta)
-* [Release Candidate] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Release_candidatee)
-* [Release] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Release)
 
