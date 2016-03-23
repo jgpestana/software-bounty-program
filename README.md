@@ -61,7 +61,7 @@ Below you can see a table with all current bounties available and their status.
 |All|Fermat Blockchain| |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
 |All|Fermat Tokens Wallet| | | 50,000 | Fermat Tokens | Not Assigned | | | | 
 |All|Fermats Tokens Exchange |  | | 100,000 | Fermat Tokens | Not Assigned | | | | 
-|All|Loss Protected Wallet|  | | 15,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Loss Protected Wallet| Doc Missing | Mar 2016 | 10,000 | Fermat Tokens | Assigned / Implementing | Natalia | Mar 2016 | | 
 |All|Discount Wallet|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |All|Device Private Network| | | 100,000 | Fermat Tokens | Not Assigned | | | | 
 |All|Crypto Distribution Network|  | | 75,000 | Fermat Tokens | Not Assigned | | | | 
