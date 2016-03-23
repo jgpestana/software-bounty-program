@@ -102,6 +102,8 @@ Please Note: Target month and bounty offer may change while their status is _Not
 
 A software release life cycle is the sum of the stages of development and maturity for a piece of computer software: ranging from its initial development to its eventual release, and including updated versions of the released version to help improve software or fix bugs still present in the software.
 
+We adhere to the following definitions:
+
 * [Pre-Alpha] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha)
 * [Alpha] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Alpha)
 * [Beta] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta)
