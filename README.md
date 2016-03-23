@@ -43,20 +43,20 @@ Below you can see a table with all current bounties available and their status.
 | Type | Project |D|  Target Month / Phase | Bounty Amount [USD] | To be paid in | Status | Assigned Team | Started / Finished | Amount Awarded / Payed [USD] |
 |:---:|:---:|:---:|:---:|---:|:---:|:---:|:---:|:---:|:--:|---:|---:|
 |All|Crypto Currency Platform|  | Jan / Alpha | 5,000 | Fermat Tokens | Assigned | Coin Diggers | Sep 2015 / Jan 2016 | 5,000 | 
-|All|Chat Platform|  | Jan / Alpha  | 5,000 | Fermat Tokens | Assigned |Gabriel, José & Miguel | Dec 2015 | | 
-|All|Crypto Broker Platform| | Jan / Alpha | 15,000 | Fermat Tokens | Assigned | Nelson & Cía | Oct 2015 | | 
-|All|[Digital Assets Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital-Asset-Platform.md)| | Jan / Alpha | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 / Jan 2016 | 10,000 | 
-|All|Fermat ORG P2P| | Jan / Alpha | 15,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
-|All|[Fermat ORG Editable](bounties/Fermat.org V3.md)| | Jan / Release | 10,000 | Fermat Tokens | Assigned | Ricardo Emmanuel | Dec 2015 | |
-|All|[Recover Fermat Repo History](https://github.com/Fermat-ORG/bounty-program/blob/master/bounties/Recover-FermatRepoHistory.md)|  | Jan | 1,000 | Fermat Tokens | Assigned | Manuel | Jan 2016 / Jan 2016 | 1,000 | 
-|All|[Digital Assets Platform v2](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital%20Assets%20Platform%20v2.md)| | March / Alpha | 10,000 | Fermat Tokens | Assigned | Thunder  |Feb 2016 / Mar 2016|10,000| 
+|All|Chat Platform|  | Jan / Alpha  | 5,000 | Fermat Tokens | Assigned / Delayed|Gabriel, José & Miguel | Dec 2015 | | 
+|All|Crypto Broker Platform| | Jan / Alpha | 15,000 | Fermat Tokens | Assigned / Delayed| Nelson & Cía | Oct 2015 | | 
+|All|[Digital Assets Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital-Asset-Platform.md)| | Jan / Alpha | 10,000 | Fermat Tokens | Assigned / Delayed | Thunder | Aug 2015 / Jan 2016 | 10,000 | 
+|All|Fermat ORG P2P| | Jan / Alpha | 15,000 | Fermat Tokens | Assigned / Delayed| Miguel Luis | Dec 2015 | | 
+|All|[Fermat ORG Editable](bounties/Fermat.org V3.md)| | Jan / Release | 10,000 | Fermat Tokens | Assigned / Delayed| Ricardo Emmanuel | Dec 2015 | |
+|All|[Recover Fermat Repo History](https://github.com/Fermat-ORG/bounty-program/blob/master/bounties/Recover-FermatRepoHistory.md)|  | Jan | 1,000 | Fermat Tokens | Assigned / Finished| Manuel | Jan 2016 / Jan 2016 | 1,000 | 
+|All|[Digital Assets Platform v2](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital%20Assets%20Platform%20v2.md)| | March / Alpha | 10,000 | Fermat Tokens | Assigned / Alpha | Thunder  |Feb 2016 / Mar 2016|10,000| 
 |All|Digital Asset Store|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|All|[Reduce 50% Compilation Time] (https://github.com/FERMAT-ORG/software-bounty-program/blob/master/bounties/Reduce_compilation_time.md)|  |February / Release| 2,000 | Fermat Tokens | Assigned |Manuel, Victor & Nerio|February 2016|2,000| 
-|All|[Android Components Tool Box](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Android_Toolbox_v1.md)|  | March 15th | 10,000 | Fermat Tokens | Not Assigned | | | 10,000 | 
+|All|[Reduce 50% Compilation Time] (https://github.com/FERMAT-ORG/software-bounty-program/blob/master/bounties/Reduce_compilation_time.md)|  |February / Release| 2,000 | Fermat Tokens | Assigned / Finished |Manuel, Victor & Nerio|February 2016|2,000| 
+|All|[Android Components Tool Box](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Android_Toolbox_v1.md)|  | March 15th | 10,000 | Fermat Tokens | Not Assigned / Alpha| | | 10,000 | 
 |All|[Fermat Token Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Fermat-Token-Platform.md)|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|All|[Cloud Server Monitor](https://github.com/Rart3001/bounty-program/blob/master/bounties/P2P_Cloud_Server_v1.md)|  | March 15th | 2,500 | Fermat Tokens | Roberto | | | 2,500 | 
+|All|[Cloud Server Monitor](https://github.com/Rart3001/bounty-program/blob/master/bounties/P2P_Cloud_Server_v1.md)|  | March 15th | 2,500 | Fermat Tokens | Roberto / Alpha | | | 2,500 | 
 |All|Fermat Blockchain Identities|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|All|Fermat P2P Network v1|  | | 20,000 | Fermat Tokens | Assigned | Roberto & Leon | Apr 2016 | | 
+|All|Fermat P2P Network v1|  | | 20,000 | Fermat Tokens | Assigned / Implementing| Roberto & Leon | Apr 2016 | | 
 |All|Fermat P2P Network v2..n| | | 130,000 | Fermat Tokens | Not Assigned | | | | 
 |All|Fermat Blockchain| |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
 |All|Fermat Tokens Wallet| | | 50,000 | Fermat Tokens | Not Assigned | | | | 
