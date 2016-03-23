@@ -105,5 +105,6 @@ A software release life cycle is the sum of the stages of development and maturi
 * [Pre-Alpha] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha)
 * [Alpha] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Alpha)
 * [Beta] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta)
-* [Release] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Release)
 * [Release Candidate] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Release_candidatee)
+* [Release] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Release)
+
