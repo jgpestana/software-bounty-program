@@ -88,8 +88,6 @@ Please Note: Target month and bounty offer may change while their status is _Not
 
 **Type** : Means the type of project. The possible projects are: GUI Design (GUI), Analisys (A), Implementation (CODE), All of the previous one (All).
 
-**D** : Means _Depends on_. The project listed dependes on other project to be completed in order to be started. 
-
 **Target Month** : Is the month where this functionality should reach production. It is considered to hit the target if it reaches production any day of that month.
 
 **Bounty Amount** : Is the amount to be awarded if the desired functionality reaches production on the _Target Month_. 
