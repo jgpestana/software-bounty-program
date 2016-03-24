@@ -11,9 +11,9 @@ We are running a bounty program to complete the projected functionality as soon 
 Reference video: https://www.youtube.com/watch?v=YU_HqeML3-w
 Spreadsheet view link: https://docs.google.com/spreadsheets/d/12EIEfwvLflUu2h81ZSQnwg-OwqC752bxXO8XnC8bEQU/edit?usp=sharing
 
-2.	**GUI/UX:** Here we design the user interfaces and user's experience. The deliverables expected are: mockups and graphic design of every single screen of the app.
+2.	**GUI/UX:** Here we design the user interfaces and user's experience. The deliverables expected are: Mockups and graphic design of every single screen of the app.
 
-3.	**Fermat Analysis:** Here we identify Fermat components and their workflows. Also Platforms and there relationships. The deliverables expected are: platforms, layers, components and workflows uploaded to fermat.org.
+3.	**Fermat Analysis:** Here we identify Fermat components and their workflows. Also Platforms and there relationships. The deliverables expected are: Platforms, layers, components and workflows uploaded to fermat.org.
 
 4.	**Implementation:** Here we write the code, write unit tests, write documentation, integrate the components, and do integration testing. The deliverables expected are: working solution ready for alpha stage.
 
@@ -26,23 +26,19 @@ Now, after signing up,  you can follow the Bounty program procedure below.
 
 ## Procedure
 
-1. Grab a Team and apply for one of the projects listed whose status reads as _Not Assigned_ (if you are already a member of the bitDubai network you can only participate on the projects you are assigned to, if it happens that that project has a bounty then you are automatically participating on the bounty-program together with the team that is working on that).
+1. Grab a Team and apply for one of the projects listed whose status reads as _Not Assigned_. You need to create an Issue in this REPO tagging the @bounty-program-team and attaching a project charter that includes: Scope, time needed to finish it, acceptance criteria to consider the work done and the bounty ammount you are asking for.  
 
-2. Create an Issue in this REPO tagging the @bounty-program-team asking to assign to your team the project you are interested in.
+2. Someone on this team will evaluate your skills and proposal and may or may not assign the project to your team. In any case a complete explanation of the reasons why they do or don't assign it will be given to you. Everything will happen in the disscussion on the issue created.
 
-3. Someone on this team will evaluate your skills and may or may not assign the project to your team. In any case a complete explanation of the reasons why they do or don't assign it will be given to you. Everything will happen in the disscussion on the issue created.
+3. If the project is finally assigned to your team, the @bounty-program-team will write in the bounties table: the team leader's name, project's start and finish date and the bounty ammount. Also, the @bounty-program-team will put in the bounties file the  agreed project charter.
 
-4. The exact scope of the project is defined once the project is assigned to a team. It is agreed between the team members and the @bounty-program-team.
+Note: If you are already a member of the bitDubai network it is possible you may participate only on the projects you are assigned to. If it happens, you still have to prepare the project charter and follow the procedure described above. 
 
 ## Rules
 
-1.	The projects oriented to solve each problem must be taken in the following order : GUI/UX, Analysis and then Implementation. No one can take a Analysis project if the GUI/UX stage is still in process, and the same with respect to Implementation project and the Analysis stage.
+1.	The projects must be taken in the following order: Use Case Analysis, GUI/UX, Fermat Analysis and then Implementation. No one can take a Fermat Analysis project if the Use Case Analysis is unassigned, and the same apply for the rest.
 
-2.	To take a project you must put your name and date in the table of bounties and then you have one week to prepare an agreement or project charter that describes the scope, the time needed to finish it, and the acceptance criteria to consider the work done. The @bounty-program-team will evaluate your proposal and decide if take it or not.
-
-3.	Once @bounty-program-team accepts the project charter will write the finish date in the bounty table.
-
-4.	On the finish date each team must showcase the deliveries associated with the project taken and the jury will evaluate, according to the project charter, if the bounty is should be awarded or not.
+4.	On the finish date each team must showcase the deliveries associated with the project taken and the jury will evaluate, according to the agreed project charter, if the bounty is should be awarded or not.
 
 5.	If you miss the target month for any reason you can still be awarded half of the bounty if you reach the targe phase the following month.
 
@@ -80,38 +76,49 @@ Below you can see a table with all current bounties available and their status.
 
 | Problem to solve | Type of Project | Bounty Amount (USD) | Assigned to (Full name) | Start date (dd/mm/aa) | Finish date (dd/mm/aa) | Amount Awarded (USD) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|P2P Taxi|Use Case Analysis|  |  |  |  |  | 
 |P2P Taxi|GUI/UX|  |  |  |  |  | 
-|P2P Taxi|Anlysis|  |  |  |  |  | 
+|P2P Taxi|Fermat Anlysis|  |  |  |  |  | 
 |P2P Taxi|Implementation|  |  |  |  |  | 
+|P2P Lodging|Use Case Analysis|  |  |  |  |  | 
 |P2P Lodging|GUI/UX|  |  |  |  |  | 
-|P2P Lodging|Anlysis|  |  |  |  |  | 
+|P2P Lodging|Fermat Anlysis|  |  |  |  |  | 
 |P2P Lodging|Implementation|  |  |  |  |  | 
+|P2P Marketplace|Use Case Analysis|  |  |  |  |  | 
 |P2P Marketplace|GUI/UX|  |  |  |  |  | 
-|P2P Marketplace|Anlysis|  |  |  |  |  | 
+|P2P Marketplace|Fermat Anlysis|  |  |  |  |  | 
 |P2P Maketplace|Implementation|  |  |  |  |  | 
+|P2P Clasifieds|Use Case Analysis|  |  |  |  |  |
 |P2P Clasifieds|GUI/UX|  |  |  |  |  | 
-|P2P Clasifieds|Anlysis|  |  |  |  |  | 
+|P2P Clasifieds|Fermat Anlysis|  |  |  |  |  | 
 |P2P Clasifieds|Implementation|  |  |  |  |  | 
+|P2P Dating|Use Case Analysis|  |  |  |  |  | 
 |P2P Dating|GUI/UX|  |  |  |  |  | 
-|P2P Dating|Anlysis|  |  |  |  |  | 
+|P2P Dating|Fermat Anlysis|  |  |  |  |  | 
 |P2P Dating|Implementation|  |  |  |  |  | 
+|P2P Jobs|Use Case Analysis|  |  |  |  |  | 
 |P2P Jobs|GUI/UX|  |  |  |  |  | 
-|P2P Jobs|Anlysis|  |  |  |  |  | 
+|P2P Jobs|Fermat Anlysis|  |  |  |  |  | 
 |P2P Jobs|Implementation|  |  |  |  |  | 
+|P2P Services|Use Case Analysis|  |  |  |  |  | 
 |P2P Services|GUI/UX|  |  |  |  |  | 
-|P2P Services|Anlysis|  |  |  |  |  | 
+|P2P Services|Fermat Anlysis|  |  |  |  |  | 
 |P2P Services|Implementation|  |  |  |  |  | 
+|P2P Consultations|Use Case Analysis|  |  |  |  |  | 
 |P2P Consultations|GUI/UX|  |  |  |  |  | 
-|P2P Consultations|Anlysis|  |  |  |  |  | 
+|P2P Consultations|Fermat Anlysis|  |  |  |  |  | 
 |P2P Consultations|Implementation|  |  |  |  |  | 
+|P2P Freelancers|Use Case Analysis|  |  |  |  |  | 
 |P2P Freelancers|GUI/UX|  |  |  |  |  | 
-|P2P Freelancers|Anlysis|  |  |  |  |  | 
+|P2P Freelancers|Fermat Anlysis|  |  |  |  |  | 
 |P2P Freelancers|Implementation|  |  |  |  |  | 
+|P2P Event ticketing|Use Case Analysis|  |  |  |  |  | 
 |P2P Event ticketing|GUI/UX|  |  |  |  |  | 
-|P2P Event ticketing|Anlysis|  |  |  |  |  | 
+|P2P Event ticketing|Fermat Anlysis|  |  |  |  |  | 
 |P2P Event ticketing|Implementation|  |  |  |  |  | 
+|P2P Delivery|Use Case Analysis|  |  |  |  |  | 
 |P2P Delivery|GUI/UX|  |  |  |  |  | 
-|P2P Delivery|Anlysis|  |  |  |  |  | 
+|P2P Delivery|Fermat Anlysis|  |  |  |  |  | 
 |P2P Delivery|Implementation|  |  |  |  |  | 
 
 Please Note: Target month and bounty offer may change while their status is _Not Assigned_
