@@ -12,41 +12,37 @@ The Fermat book chapter related to this bounty can be found here: https://github
 
 ## Scope
 
-
 ### Current Development in Progress
 
 Para el inicio de este proyecto se cuenta con la implementacion de la plataforma CCP que permite el envio y recepcion de bitcoins a traves de red Fermat. Utilizaremos las funcionaldades y componentes desarrollados para manejar negociaciones donde se desee comprar o vender Bitcoins
 
-
 ### Related Projects To Develop
 
-Para el desarrollo de la funcionalidad con la que contará la plataforma CBP es necesaria la creacion de varios Side Projects los cuales se especifican a continuacion indicando el alcance de los mismos, asi como una poderacion en el desarrollo de las caracteristicas necesarias para cumplir con el Bounty en base a 100:
+Para el desarrollo de la funcionalidad con la que contará la plataforma CBP es necesaria la creacion de varios Side Projects los cuales se especifican a continuacion indicando el alcance de los mismos:
 
 #### CSH Platform
 
 Alcance:
-- Asociar una moneda
+- Configurar la wallet asociando una moneda a ella
 - Hacer creditos
 - Hacer debitos
 - Editar transacciones de credito o debito que esten en proceso
-- llevar el balance del dinero en efectivo
+- Cancelar transacciones de credito o debito mientras esten en proceso 
+- Llevar el balance book y available del dinero en efectivo
+- Mostrar el historial de transacciones hechas a la wallet
+- Mostrar detalles de cada transaccion
 
 Criterios de Aceptacion:
-- Se puede seleccionar una moneda para llevar el balance del dinero en cash
-- Mostrar los balances Avaliabe y Book de la wallet
-- Hacer un transaccion de Credito en la wallet
-- Editar la informacion de la transaccion de Credito
-- Hacer un transaccion de Debito en la wallet
-- Editar la informacion de la transaccion de Debito
+- En el wizard inicial, se puede configurar una moneda para llevar el balance del dinero en cash
+- Se muestran los balances Available y Book de la wallet (mostrando el book solo cuando los balances sean distintos)
+- Realizar una transaccion de Credito
+- Editar la informacion de la transaccion de Credito mientras este en proceso
+- Cancelar la transaccion de Credito mientras este en proceso
+- Realizar una transaccion de Debito
+- Editar la informacion de la transaccion de Debito mientras este en proceso
+- Cancelar la transaccion de Debito mientras este en proceso
+- Ver la informacion de cualquier transaccion realizada
 
-Componentes Involucrados:
-- Cash Money Reference Wallet
-- Cash Money Wallet Module
-- Cash Money Wallet Plugin
-- Deposit Cash Money Transaction
-- Hold Cash Money Transaction
-- Unhold Cash Money Transaction
-- Withdrawal Cash Money Transaction
 
 #### BNK Platform
 
@@ -56,37 +52,55 @@ Alcance:
 - Hacer creditos a las cuentas bancarias
 - Hacer debitos a las cuentas bancarias
 - Editar transacciones de credito o debito que esten en proceso
-- llevar el balance del dinero en cada cuenta bancaria
-- No va a estar conectada a la API de ningun banco, eso solo para uso administrativo. 
+- Cancelar transacciones de credito o debito mientras esten en proceso 
+- Llevar el balance book y available del dinero en cada cuenta bancaria
+- Mostrar el historial de transacciones hechas sobre cada cuenta
+- Mostrar detalles de cada transaccion
+- No va a estar conectada a la API de ningun banco, eso solo para uso administrativo
 
 Criterios de Aceptacion:
-- Se puede ingresar un texto que represente el nombre de un banco
+- En el wizard inicial, se puede ingresar un texto que represente el nombre de un banco
 - Se puede agregar una o mas cuentas bancarias y cada una puede tener asociada una moneda diferente
-- Mostrar los balances Avaliabe y Book de cada cuenta
-- Hacer un transaccion de Credito en una cuenta seleccionada
-- Editar la informacion de la transaccion de Credito
-- Hacer un transaccion de Debito en una cuenta seleccionada
-- Editar la informacion de la transaccion de Debito
-
-Componentes Involucrados:
-- Bank Money Reference Wallet
-- Bank Money Wallet Module
-- Bank Money Wallet Plugin
-- Deposit Bank Money Transaction
-- Hold Bank Money Transaction
-- Unhold Bank Money Transaction
-- Withdrawal Bank Money Transaction
+- Se muestran los balances Availabe y Book de cada cuenta (mostrando el book solo cuando los balances sean distintos)
+- Mostrar historial de transacciones.
+- Realizar una transaccion de Credito en cualquiera de las cuentas
+- Editar la informacion de la transaccion de Credito mientras este en proceso
+- Cancelar la transaccion de Credito mientras este en proceso
+- Realizar una transaccion de Debito en cualquiera de las cuentas
+- Editar la informacion de la transaccion de Debito mientras este en proceso
+- Cancelar la transaccion de Debito mientras este en proceso
+- Ver la informacion de cualquier transaccion realizada
 
 #### CER Super Layer
 
 Alcance:
+- Contiene providers de exchangeRates para monedas fiat y crypto
+- Retorna una lista de todos los Providers que contiene el CER
+- Filtra providers segun su public key
+- Filtra Providers segun un par de monedas dado
+- De cada provider se obtiene 
+  - Una lista de pares de monedas soportadas
+  - El exchangeRate actual
+  - El exchangeRate para una fecha dada (de ser soportado por el provider)
+  - ExchangeRates diarios para un rango de fechas (de ser soportado por el provider)
+  - Una lista de todos los exchangeRates alguna vez solicitados al plugin
+- Providers inicialmente soportados:
+  - BitcoinVenezuela(BITCOIN, LITECOIN, US_DOLLAR, EURO, VENEZUELAN_BOLIVAR, ARGENTINE_PESO)
+  - Bitfinex (BITCOIN, LITECOIN, ETHEREUM, US_DOLLAR)
+  - Bter (BITCOIN, LITECOIN, ETHEREUM, CHINESE_YUAN, US_DOLLAR)
+  - DolarToday (US_DOLLAR, VENEZUELAN_BOLIVAR)
+  - ElCronista (US_DOLLAR, ARGENTINE_PESO)
+  - LaNacion (US_DOLLAR, ARGENTINE_PESO)
+  - EuropeanCentralBank (AUSTRALIAN_DOLLAR, BRAZILIAN_REAL, BRITISH_POUND, CANADIAN_DOLLAR, CHINESE_YUAN, EURO, JAPANESE_YEN, MEXICAN_PESO, NEW_ZEALAND_DOLLAR, SWISS_FRANC, US_DOLLAR)
+  - Yahoo (Todos los Fiat Currency)
 
 Criterios de Aceptacion:
+ - Implementacion de la funcionalidad e integracion de la capa CER con la plataforma CBP
 
 
 ### CBP Platform
 
-La plataforma contara con las siguientes caracteristicas, apoyandose , cada una de ellas tiene una serie de Crterios de Aceptacion asi como componentes involucrados y una poderacion en el desarrollo de estas caracteristicas necesarias para cumplir con el Bounty en base a 100:
+La plataforma contara con las siguientes caracteristicas, apoyandose , cada una de ellas tiene una serie de Crterios de Aceptacion asi como componentes involucrados:
 
 #### Creacion de identidades para Crypto Brokers
 
@@ -503,3 +517,31 @@ Componentes Involucrados:
 ### Evaluation
 
 Para considerar este bounty exitoso se debe cumplir los Criterios de Aceptacion de los flujos expuestos anteriormente.
+
+### Distribution 
+
+Cada caracteristica expuesta mas arriba tiene un porcentaje que representa parte del bounty. A continuacion se indican dichos porcentajes:
+
+|Features                                                      | % | 
+|--------------------------------------------------------------|:----:|
+|CSH Platform                                                  | 5% |
+|BNK Platform                                                  | 5% |
+|CER Super Layer                                               | 4% |
+|Creacion de identidades para Crypto Brokers                   | 2% |
+|Creacion de identidades para Crypto Customer                  | 2% |
+|Configuracion Previa (Wizard) de la Broker Reference Wallet   | 3% |
+|Configuracion Previa (Wizard) de la Customer Reference Wallet | 3% |
+|Configurar la Broker Wallet                                   | 3% |
+|Configurar la Customer Wallet                                 | 3% |
+|Conectar un Crypto Customer con un Crypto Broker              | 6% |
+|Obtener cotizaciones de un Broker                             | 6% |
+|Permitir a un Crypto Customer iniciar una nueva Negociacion   | 8% |
+|Actualizar una negociacion                                    | 8% |
+|Cancelar una negociacion                                      | 4% |
+|Cerrar una Negociacion y crear un Contrato                    | 7% |
+|Procesar un contrato de Pago Offline y Mercancia Offline      | 7% |
+|Procesar un contrato de Pago Online y Mercancia Offline       | 7% |
+|Procesar un contrato de Pago Offline y Mercancia Online       | 7% |
+|Cerrar Contrato                                               | 4% |
+|Extraccion de ganancias                                       | 6% |
+|**Total**                                                    | **100%** |
