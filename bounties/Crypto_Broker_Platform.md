@@ -23,30 +23,28 @@ Para el desarrollo de la funcionalidad con la que contará la plataforma CBP es 
 #### CSH Platform
 
 Alcance:
-- Asociar una moneda
+- Configurar la wallet asociando una moneda a ella
 - Hacer creditos
 - Hacer debitos
 - Editar transacciones de credito o debito que esten en proceso
-- llevar el balance del dinero en efectivo
+- Cancelar transacciones de credito o debito mientras esten en proceso 
+- Llevar el balance book y available del dinero en efectivo
+- Mostrar el historial de transacciones hechas a la wallet
+- Mostrar detalles de cada transaccion
 
 Criterios de Aceptacion:
-- Se puede seleccionar una moneda para llevar el balance del dinero en cash
-- Mostrar los balances Avaliabe y Book de la wallet
-- Hacer un transaccion de Credito en la wallet
-- Editar la informacion de la transaccion de Credito
-- Hacer un transaccion de Debito en la wallet
-- Editar la informacion de la transaccion de Debito
+- En el wizard inicial, se puede configurar una moneda para llevar el balance del dinero en cash
+- Se muestran los balances Available y Book de la wallet (mostrando el book solo cuando los balances sean distintos)
+- Realizar una transaccion de Credito
+- Editar la informacion de la transaccion de Credito mientras este en proceso
+- Cancelar la transaccion de Credito mientras este en proceso
+- Realizar una transaccion de Debito
+- Editar la informacion de la transaccion de Debito mientras este en proceso
+- Cancelar la transaccion de Debito mientras este en proceso
+- Ver la informacion de cualquier transaccion realizada
 
-Componentes Involucrados:
-- Cash Money Reference Wallet
-- Cash Money Wallet Module
-- Cash Money Wallet Plugin
-- Deposit Cash Money Transaction
-- Hold Cash Money Transaction
-- Unhold Cash Money Transaction
-- Withdrawal Cash Money Transaction
 
-#### BNK Platform 
+#### BNK Platform
 
 Alcance:
 - Configurar la wallet indicando nombre de un banco
@@ -54,32 +52,50 @@ Alcance:
 - Hacer creditos a las cuentas bancarias
 - Hacer debitos a las cuentas bancarias
 - Editar transacciones de credito o debito que esten en proceso
-- llevar el balance del dinero en cada cuenta bancaria
-- No va a estar conectada a la API de ningun banco, eso solo para uso administrativo. 
+- Cancelar transacciones de credito o debito mientras esten en proceso 
+- Llevar el balance book y available del dinero en cada cuenta bancaria
+- Mostrar el historial de transacciones hechas sobre cada cuenta
+- Mostrar detalles de cada transaccion
+- No va a estar conectada a la API de ningun banco, eso solo para uso administrativo
 
 Criterios de Aceptacion:
-- Se puede ingresar un texto que represente el nombre de un banco
+- En el wizard inicial, se puede ingresar un texto que represente el nombre de un banco
 - Se puede agregar una o mas cuentas bancarias y cada una puede tener asociada una moneda diferente
-- Mostrar los balances Avaliabe y Book de cada cuenta
-- Hacer un transaccion de Credito en una cuenta seleccionada
-- Editar la informacion de la transaccion de Credito
-- Hacer un transaccion de Debito en una cuenta seleccionada
-- Editar la informacion de la transaccion de Debito
-
-Componentes Involucrados:
-- Bank Money Reference Wallet
-- Bank Money Wallet Module
-- Bank Money Wallet Plugin
-- Deposit Bank Money Transaction
-- Hold Bank Money Transaction
-- Unhold Bank Money Transaction
-- Withdrawal Bank Money Transaction
+- Se muestran los balances Availabe y Book de cada cuenta (mostrando el book solo cuando los balances sean distintos)
+- Mostrar historial de transacciones.
+- Realizar una transaccion de Credito en cualquiera de las cuentas
+- Editar la informacion de la transaccion de Credito mientras este en proceso
+- Cancelar la transaccion de Credito mientras este en proceso
+- Realizar una transaccion de Debito en cualquiera de las cuentas
+- Editar la informacion de la transaccion de Debito mientras este en proceso
+- Cancelar la transaccion de Debito mientras este en proceso
+- Ver la informacion de cualquier transaccion realizada
 
 #### CER Super Layer
 
 Alcance:
+- Contiene providers de exchangeRates para monedas fiat y crypto
+- Retorna una lista de todos los Providers que contiene el CER
+- Filtra providers segun su public key
+- Filtra Providers segun un par de monedas dado
+- De cada provider se obtiene 
+  - Una lista de pares de monedas soportadas
+  - El exchangeRate actual
+  - El exchangeRate para una fecha dada (de ser soportado por el provider)
+  - ExchangeRates diarios para un rango de fechas (de ser soportado por el provider)
+  - Una lista de todos los exchangeRates alguna vez solicitados al plugin
+- Providers inicialmente soportados:
+  - BitcoinVenezuela(BITCOIN, LITECOIN, US_DOLLAR, EURO, VENEZUELAN_BOLIVAR, ARGENTINE_PESO)
+  - Bitfinex (BITCOIN, LITECOIN, ETHEREUM, US_DOLLAR)
+  - Bter (BITCOIN, LITECOIN, ETHEREUM, CHINESE_YUAN, US_DOLLAR)
+  - DolarToday (US_DOLLAR, VENEZUELAN_BOLIVAR)
+  - ElCronista (US_DOLLAR, ARGENTINE_PESO)
+  - LaNacion (US_DOLLAR, ARGENTINE_PESO)
+  - EuropeanCentralBank (AUSTRALIAN_DOLLAR, BRAZILIAN_REAL, BRITISH_POUND, CANADIAN_DOLLAR, CHINESE_YUAN, EURO, JAPANESE_YEN, MEXICAN_PESO, NEW_ZEALAND_DOLLAR, SWISS_FRANC, US_DOLLAR)
+  - Yahoo (Todos los Fiat Currency)
 
 Criterios de Aceptacion:
+ - Implementacion de la funcionalidad e integracion de la capa CER con la plataforma CBP
 
 
 ### CBP Platform
