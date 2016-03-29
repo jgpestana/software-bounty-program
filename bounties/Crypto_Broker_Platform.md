@@ -522,26 +522,26 @@ Para considerar este bounty exitoso se debe cumplir los Criterios de Aceptacion 
 
 Cada caracteristica expuesta mas arriba tiene un porcentaje que representa parte del bounty. A continuacion se indican dichos porcentajes:
 
-|Features | % | 
-|----|:----:|
-|CSH Platform | 5% |
-|BNK Platform | 5% |
-|CER Super Layer | 5% |
-|Creacion de identidades para Crypto Brokers | 5% |
-|Creacion de identidades para Crypto Customer | 5% |
-|Configuracion Previa (Wizard) de la Broker Reference Wallet | 5% |
-|Configuracion Previa (Wizard) de la Customer Reference Wallet | 5% |
-|Configurar la Broker Wallet | 5% |
-|Configurar la Customer Wallet | 5% |
-|Conectar un Crypto Customer con un Crypto Broker | 5% |
-|Obtener cotizaciones de un Broker | 5% |
-|Permitir a un Crypto Customer iniciar una nueva Negociacion | 5% |
-|Actualizar una negociacion | 5% |
-|Cancelar una negociacion | 5% |
-|Cerrar una Negociacion y crear un Contrato | 5% |
-|Procesar un contrato de Pago Offline y Mercancia Offline | 5% |
-|Procesar un contrato de Pago Online y Mercancia Offline | 5% |
-|Procesar un contrato de Pago Offline y Mercancia Online | 5% |
-|Cerrar Contrato | 5% |
-|Extraccion de ganancias | 5% |
-|Total | 100% |
+|Features                                                      | % | 
+|--------------------------------------------------------------|:----:|
+|CSH Platform                                                  | 5% |
+|BNK Platform                                                  | 5% |
+|CER Super Layer                                               | 4% |
+|Creacion de identidades para Crypto Brokers                   | 2% |
+|Creacion de identidades para Crypto Customer                  | 2% |
+|Configuracion Previa (Wizard) de la Broker Reference Wallet   | 3% |
+|Configuracion Previa (Wizard) de la Customer Reference Wallet | 3% |
+|Configurar la Broker Wallet                                   | 3% |
+|Configurar la Customer Wallet                                 | 3% |
+|Conectar un Crypto Customer con un Crypto Broker              | 6% |
+|Obtener cotizaciones de un Broker                             | 6% |
+|Permitir a un Crypto Customer iniciar una nueva Negociacion   | 8% |
+|Actualizar una negociacion                                    | 8% |
+|Cancelar una negociacion                                      | 4% |
+|Cerrar una Negociacion y crear un Contrato                    | 7% |
+|Procesar un contrato de Pago Offline y Mercancia Offline      | 7% |
+|Procesar un contrato de Pago Online y Mercancia Offline       | 7% |
+|Procesar un contrato de Pago Offline y Mercancia Online       | 7% |
+|Cerrar Contrato                                               | 4% |
+|Extraccion de ganancias                                       | 6% |
+|**Total**                                                    | **100%** |
