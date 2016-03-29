@@ -12,15 +12,13 @@ The Fermat book chapter related to this bounty can be found here: https://github
 
 ## Scope
 
-
 ### Current Development in Progress
 
 Para el inicio de este proyecto se cuenta con la implementacion de la plataforma CCP que permite el envio y recepcion de bitcoins a traves de red Fermat. Utilizaremos las funcionaldades y componentes desarrollados para manejar negociaciones donde se desee comprar o vender Bitcoins
 
-
 ### Related Projects To Develop
 
-Para el desarrollo de la funcionalidad con la que contará la plataforma CBP es necesaria la creacion de varios Side Projects los cuales se especifican a continuacion indicando el alcance de los mismos, asi como una poderacion en el desarrollo de las caracteristicas necesarias para cumplir con el Bounty en base a 100:
+Para el desarrollo de la funcionalidad con la que contará la plataforma CBP es necesaria la creacion de varios Side Projects los cuales se especifican a continuacion indicando el alcance de los mismos:
 
 #### CSH Platform
 
@@ -48,7 +46,7 @@ Componentes Involucrados:
 - Unhold Cash Money Transaction
 - Withdrawal Cash Money Transaction
 
-#### BNK Platform
+#### BNK Platform 
 
 Alcance:
 - Configurar la wallet indicando nombre de un banco
@@ -86,7 +84,7 @@ Criterios de Aceptacion:
 
 ### CBP Platform
 
-La plataforma contara con las siguientes caracteristicas, apoyandose , cada una de ellas tiene una serie de Crterios de Aceptacion asi como componentes involucrados y una poderacion en el desarrollo de estas caracteristicas necesarias para cumplir con el Bounty en base a 100:
+La plataforma contara con las siguientes caracteristicas, apoyandose , cada una de ellas tiene una serie de Crterios de Aceptacion asi como componentes involucrados:
 
 #### Creacion de identidades para Crypto Brokers
 
@@ -503,3 +501,31 @@ Componentes Involucrados:
 ### Evaluation
 
 Para considerar este bounty exitoso se debe cumplir los Criterios de Aceptacion de los flujos expuestos anteriormente.
+
+### Distribution 
+
+Cada caracteristica expuesta mas arriba tiene un porcentaje que representa parte del bounty. A continuacion se indican dichos porcentajes:
+
+|Features | % | 
+|----|:----:|
+|CSH Platform | 5% |
+|BNK Platform | 5% |
+|CER Super Layer | 5% |
+|Creacion de identidades para Crypto Brokers | 5% |
+|Creacion de identidades para Crypto Customer | 5% |
+|Configuracion Previa (Wizard) de la Broker Reference Wallet | 5% |
+|Configuracion Previa (Wizard) de la Customer Reference Wallet | 5% |
+|Configurar la Broker Wallet | 5% |
+|Configurar la Customer Wallet | 5% |
+|Conectar un Crypto Customer con un Crypto Broker | 5% |
+|Obtener cotizaciones de un Broker | 5% |
+|Permitir a un Crypto Customer iniciar una nueva Negociacion | 5% |
+|Actualizar una negociacion | 5% |
+|Cancelar una negociacion | 5% |
+|Cerrar una Negociacion y crear un Contrato | 5% |
+|Procesar un contrato de Pago Offline y Mercancia Offline | 5% |
+|Procesar un contrato de Pago Online y Mercancia Offline | 5% |
+|Procesar un contrato de Pago Offline y Mercancia Online | 5% |
+|Cerrar Contrato | 5% |
+|Extraccion de ganancias | 5% |
+|Total | 100% |
