@@ -427,11 +427,6 @@ Componentes Involucrados:
 - Plataforma CSH, BNK y CCP
 
 
-### Current Development in Progress
-
-Para el inicio de este proyecto se cuenta con la implementacion de la plataforma CCP que permite el envio y recepcion de bitcoins a traves de red Fermat. Utilizaremos las funcionaldades y componentes desarrollados para manejar negociaciones donde se desee comprar o vender Bitcoins
-
-
 ### Related Projects To Develop
 
 Para el desarrollo de la funcionalidad con la que contará la plataforma CBP es necesaria la creacion de varios Side Projects los cuales se especifican a continuacion indicando el alcance de los mismos:
@@ -517,6 +512,11 @@ Alcance:
 
 Criterios de Aceptacion:
  - Implementacion de la funcionalidad e integracion de la capa CER con la plataforma CBP
+
+
+### Current Development in Progress
+
+Para el inicio de este proyecto se cuenta con la implementacion de la plataforma CCP que permite el envio y recepcion de bitcoins a traves de red Fermat. Utilizaremos las funcionaldades y componentes desarrollados para manejar negociaciones donde se desee comprar o vender Bitcoins
 
 
 ### Evaluation
