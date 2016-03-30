@@ -518,7 +518,20 @@ Componentes Involucrados:
 
 Para considerar este bounty exitoso se debe cumplir los Criterios de Aceptacion de los flujos expuestos anteriormente.
 
-### Distribution 
+
+### Distribution by Contributor
+
+|Contributor           | Bounty Amount | 
+|----------------------|:----:|
+|Alejandro Bicelis     | 3000 |
+|Angel Veloz           | 3000 |
+|Guillermo Guitierrez  | 3000 |
+|Nelson Ramirez        | 3000 |
+|Yordin Da Rocha       | 3000 |
+|**Total**             | **15000** |
+
+
+### Distribution by Features 
 
 Cada caracteristica expuesta mas arriba tiene un porcentaje que representa parte del bounty. A continuacion se indican dichos porcentajes:
 
