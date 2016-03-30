@@ -7,96 +7,10 @@
 
 In this platform the actors involved are the crypto brokers and his customers (crypto customers). A crypto broker is a person or small organization whose business logic is to buy and sell crypto or fiat money in his local market, obtaining his profits from the difference in the buying/selling price. We can also distinguish two common crypto brokers levels, those acting as crypto brokers wholesalers and those who deal with final customers. The key goal of this platform is to facilitate most of the routine tasks to run the business and even provide the necessary functionalities always avoid the loss of money in every transaction.
 
-The Fermat book chapter related to this bounty can be found here: https://github.com/Fermat-ORG/fermat-book/blob/master/book-chapter-17.asciidoc
+The Fermat book chapters related to this bounty can be found here:[Chapter 16 - Fermat Book](https://github.com/Fermat-ORG/fermat-book/blob/master/book-chapter-16.asciidoc), [Chapter 17 - Fermat Book](https://github.com/Fermat-ORG/fermat-book/blob/master/book-chapter-17.asciidoc)
 
 
 ## Scope
-
-### Current Development in Progress
-
-Para el inicio de este proyecto se cuenta con la implementacion de la plataforma CCP que permite el envio y recepcion de bitcoins a traves de red Fermat. Utilizaremos las funcionaldades y componentes desarrollados para manejar negociaciones donde se desee comprar o vender Bitcoins
-
-### Related Projects To Develop
-
-Para el desarrollo de la funcionalidad con la que contará la plataforma CBP es necesaria la creacion de varios Side Projects los cuales se especifican a continuacion indicando el alcance de los mismos:
-
-#### CSH Platform
-
-Alcance:
-- Configurar la wallet asociando una moneda a ella
-- Hacer creditos
-- Hacer debitos
-- Editar transacciones de credito o debito que esten en proceso
-- Cancelar transacciones de credito o debito mientras esten en proceso 
-- Llevar el balance book y available del dinero en efectivo
-- Mostrar el historial de transacciones hechas a la wallet
-- Mostrar detalles de cada transaccion
-
-Criterios de Aceptacion:
-- En el wizard inicial, se puede configurar una moneda para llevar el balance del dinero en cash
-- Se muestran los balances Available y Book de la wallet (mostrando el book solo cuando los balances sean distintos)
-- Realizar una transaccion de Credito
-- Editar la informacion de la transaccion de Credito mientras este en proceso
-- Cancelar la transaccion de Credito mientras este en proceso
-- Realizar una transaccion de Debito
-- Editar la informacion de la transaccion de Debito mientras este en proceso
-- Cancelar la transaccion de Debito mientras este en proceso
-- Ver la informacion de cualquier transaccion realizada
-
-
-#### BNK Platform
-
-Alcance:
-- Configurar la wallet indicando nombre de un banco
-- Agregar cuentas bancarias en diferentes monedas
-- Hacer creditos a las cuentas bancarias
-- Hacer debitos a las cuentas bancarias
-- Editar transacciones de credito o debito que esten en proceso
-- Cancelar transacciones de credito o debito mientras esten en proceso 
-- Llevar el balance book y available del dinero en cada cuenta bancaria
-- Mostrar el historial de transacciones hechas sobre cada cuenta
-- Mostrar detalles de cada transaccion
-- No va a estar conectada a la API de ningun banco, eso solo para uso administrativo
-
-Criterios de Aceptacion:
-- En el wizard inicial, se puede ingresar un texto que represente el nombre de un banco
-- Se puede agregar una o mas cuentas bancarias y cada una puede tener asociada una moneda diferente
-- Se muestran los balances Availabe y Book de cada cuenta (mostrando el book solo cuando los balances sean distintos)
-- Mostrar historial de transacciones.
-- Realizar una transaccion de Credito en cualquiera de las cuentas
-- Editar la informacion de la transaccion de Credito mientras este en proceso
-- Cancelar la transaccion de Credito mientras este en proceso
-- Realizar una transaccion de Debito en cualquiera de las cuentas
-- Editar la informacion de la transaccion de Debito mientras este en proceso
-- Cancelar la transaccion de Debito mientras este en proceso
-- Ver la informacion de cualquier transaccion realizada
-
-#### CER Super Layer
-
-Alcance:
-- Contiene providers de exchangeRates para monedas fiat y crypto
-- Retorna una lista de todos los Providers que contiene el CER
-- Filtra providers segun su public key
-- Filtra Providers segun un par de monedas dado
-- De cada provider se obtiene 
-  - Una lista de pares de monedas soportadas
-  - El exchangeRate actual
-  - El exchangeRate para una fecha dada (de ser soportado por el provider)
-  - ExchangeRates diarios para un rango de fechas (de ser soportado por el provider)
-  - Una lista de todos los exchangeRates alguna vez solicitados al plugin
-- Providers inicialmente soportados:
-  - BitcoinVenezuela(BITCOIN, LITECOIN, US_DOLLAR, EURO, VENEZUELAN_BOLIVAR, ARGENTINE_PESO)
-  - Bitfinex (BITCOIN, LITECOIN, ETHEREUM, US_DOLLAR)
-  - Bter (BITCOIN, LITECOIN, ETHEREUM, CHINESE_YUAN, US_DOLLAR)
-  - DolarToday (US_DOLLAR, VENEZUELAN_BOLIVAR)
-  - ElCronista (US_DOLLAR, ARGENTINE_PESO)
-  - LaNacion (US_DOLLAR, ARGENTINE_PESO)
-  - EuropeanCentralBank (AUSTRALIAN_DOLLAR, BRAZILIAN_REAL, BRITISH_POUND, CANADIAN_DOLLAR, CHINESE_YUAN, EURO, JAPANESE_YEN, MEXICAN_PESO, NEW_ZEALAND_DOLLAR, SWISS_FRANC, US_DOLLAR)
-  - Yahoo (Todos los Fiat Currency)
-
-Criterios de Aceptacion:
- - Implementacion de la funcionalidad e integracion de la capa CER con la plataforma CBP
-
 
 ### CBP Platform
 
@@ -151,7 +65,6 @@ Criterios de Aceptacion:
 Componentes Involucrados:
 - Crypto Customer Reference Wallet
 - Customer Broker Purchase Negotiation Plugin
-
 
 #### Configurar la Broker Wallet
 
@@ -514,6 +427,98 @@ Componentes Involucrados:
 - Plataforma CSH, BNK y CCP
 
 
+### Related Projects To Develop
+
+Para el desarrollo de la funcionalidad con la que contará la plataforma CBP es necesaria la creacion de varios Side Projects los cuales se especifican a continuacion indicando el alcance de los mismos:
+
+#### CSH Platform
+
+Esta plataforma permite la administracion de dinero FIAT (Dolar, Bolivar, Peso Argentino, Euro, etc) que se tiene en efectivo, y permite a un Crypto Broker vender mercancia recibiendo el pago dinero en efectivo
+
+Alcance:
+- Configurar la wallet asociando una moneda a ella
+- Hacer creditos
+- Hacer debitos
+- Editar transacciones de credito o debito que esten en proceso
+- Cancelar transacciones de credito o debito mientras esten en proceso 
+- Llevar el balance book y available del dinero en efectivo
+- Mostrar el historial de transacciones hechas a la wallet
+- Mostrar detalles de cada transaccion
+
+Criterios de Aceptacion:
+- En el wizard inicial, se puede configurar una moneda para llevar el balance del dinero en cash
+- Se muestran los balances Available y Book de la wallet (mostrando el book solo cuando los balances sean distintos)
+- Realizar una transaccion de Credito
+- Editar la informacion de la transaccion de Credito mientras este en proceso
+- Cancelar la transaccion de Credito mientras este en proceso
+- Realizar una transaccion de Debito
+- Editar la informacion de la transaccion de Debito mientras este en proceso
+- Cancelar la transaccion de Debito mientras este en proceso
+- Ver la informacion de cualquier transaccion realizada
+
+#### BNK Platform
+
+Esta plataforma permite la administracion de dinero FIAT (Dolar, Bolivar, Peso Argentino, Euro, etc) que se tiene almacenada en un banco, y permite a un Crypto Broker vender mercancia recibiendo el pago dinero a travez de deposito o transferencia bancaria.
+
+Alcance:
+- Configurar la wallet indicando nombre de un banco
+- Agregar cuentas bancarias en diferentes monedas
+- Hacer creditos a las cuentas bancarias
+- Hacer debitos a las cuentas bancarias
+- Editar transacciones de credito o debito que esten en proceso
+- Cancelar transacciones de credito o debito mientras esten en proceso 
+- Llevar el balance book y available del dinero en cada cuenta bancaria
+- Mostrar el historial de transacciones hechas sobre cada cuenta
+- Mostrar detalles de cada transaccion
+- No va a estar conectada a la API de ningun banco, eso solo para uso administrativo
+
+Criterios de Aceptacion:
+- En el wizard inicial, se puede ingresar un texto que represente el nombre de un banco
+- Se puede agregar una o mas cuentas bancarias y cada una puede tener asociada una moneda diferente
+- Se muestran los balances Availabe y Book de cada cuenta (mostrando el book solo cuando los balances sean distintos)
+- Mostrar historial de transacciones.
+- Realizar una transaccion de Credito en cualquiera de las cuentas
+- Editar la informacion de la transaccion de Credito mientras este en proceso
+- Cancelar la transaccion de Credito mientras este en proceso
+- Realizar una transaccion de Debito en cualquiera de las cuentas
+- Editar la informacion de la transaccion de Debito mientras este en proceso
+- Cancelar la transaccion de Debito mientras este en proceso
+- Ver la informacion de cualquier transaccion realizada
+
+#### CER Super Layer
+
+Esta super capa se creo con la finalidad de poder ofrecer a las diferentes plataformas que lo requieran proveedores de tasas de cambio. En el caso de la plataforma CBP se usa para que el Crypto Broker y el Crypto Customer tengan un precio de referencia con el cual comprar y vender
+
+Alcance:
+- Contiene providers de exchangeRates para monedas fiat y crypto
+- Retorna una lista de todos los Providers que contiene el CER
+- Filtra providers segun su public key
+- Filtra Providers segun un par de monedas dado
+- De cada provider se obtiene 
+  - Una lista de pares de monedas soportadas
+  - El exchangeRate actual
+  - El exchangeRate para una fecha dada (de ser soportado por el provider)
+  - ExchangeRates diarios para un rango de fechas (de ser soportado por el provider)
+  - Una lista de todos los exchangeRates alguna vez solicitados al plugin
+- Providers inicialmente soportados:
+  - Bitcoin Venezuela (Monedas soportadas: Bitcoin, Litecoin, Dolar Americano, Euro, Bolivar, Peso Argentino)
+  - Bitfinex (Monedas soportadas: Bitcoin, Litecoin, Ethereum, Dolar Americano)
+  - Bter (Monedas soportadas: Bitcoin, Litecoin, Ethereum, Yuan, Dolar Americano)
+  - Dolar Today (Dolar Americano, Bolivares)
+  - El Cronista (Dolar Americano, Peso Argentino)
+  - La Nacion (Dolar Americano, Peso Argentino)
+  - European Central Bank (Dolar Australiano, Real Brasileño, Libra Esterlina, Dolar Canadiense, Yuan, Euro, Yen, Peso Mexicano, Dolar Neozelandes, Franco Suizo, Dolar Americano)
+  - Yahoo (Todos las monedas FIAT)
+
+Criterios de Aceptacion:
+ - Implementacion de la funcionalidad e integracion de la capa CER con la plataforma CBP
+
+
+### Current Development in Progress
+
+Para el inicio de este proyecto se cuenta con la implementacion de la plataforma CCP que permite el envio y recepcion de bitcoins a traves de red Fermat. Utilizaremos las funcionaldades y componentes desarrollados para manejar negociaciones donde se desee comprar o vender Bitcoins
+
+
 ### Evaluation
 
 Para considerar este bounty exitoso se debe cumplir los Criterios de Aceptacion de los flujos expuestos anteriormente.
@@ -537,9 +542,6 @@ Cada caracteristica expuesta mas arriba tiene un porcentaje que representa parte
 
 |Features                                                      | % | 
 |--------------------------------------------------------------|:----:|
-|CSH Platform                                                  | 5% |
-|BNK Platform                                                  | 5% |
-|CER Super Layer                                               | 4% |
 |Creacion de identidades para Crypto Brokers                   | 2% |
 |Creacion de identidades para Crypto Customer                  | 2% |
 |Configuracion Previa (Wizard) de la Broker Reference Wallet   | 3% |
@@ -557,4 +559,7 @@ Cada caracteristica expuesta mas arriba tiene un porcentaje que representa parte
 |Procesar un contrato de Pago Offline y Mercancia Online       | 7% |
 |Cerrar Contrato                                               | 4% |
 |Extraccion de ganancias                                       | 6% |
+|CSH Platform                                                  | 5% |
+|BNK Platform                                                  | 5% |
+|CER Super Layer                                               | 4% |
 |**Total**                                                    | **100%** |
