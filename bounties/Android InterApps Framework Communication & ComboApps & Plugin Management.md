@@ -37,6 +37,8 @@ Las implementaciones a realizar serán las siguientes:
         * Implementación del Binder Framework
         * Conexión con Fermat segura, autentificación, token.
 
+* Creación del entorno y división del primer proceso de Fermat en android OS
+
 * ##### Framework de comunicación de aplicaciónes externas.
         * Paquetes y clases necesarias para conectarse con Fermat las cuales se encontrarán en un repositorio de maven y cualquier aplicación externa las podrá descargar.
         * Clase base de comunicación Cliente.
