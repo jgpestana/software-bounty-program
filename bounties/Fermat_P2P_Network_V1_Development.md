@@ -1,44 +1,44 @@
 # Fermat P2P Network V1 Development Bounty
 
 ### Introduction
-The main objective of this bounty is to create a decentralized P2P network between the Fermat Nodes. In this first approach we'll create the first version of a Network Node and the first version of the Client Node. The current implementation called Cloud Client and Cloud Server are going to be used as a reference to extrack whatever is usefull, and that techology is going still be supported as an alternative communication method.
+The main objective of this bounty is to create a decentralized P2P network between the Fermat Nodes. In this first approach we'll create the first version of a Network Node and the first version of the Client Node. The current implementation called Cloud Client and Cloud Server are going to be used as a reference to extract whatever is useful, and that technology is going to still be supported as an alternative communication method.
 
-The Network Node will have all the features needed to the interaction with its peers.
+The Network Node will have all the features needed for the interaction with its peers.
 
-### Glosary
+### Glossary
 
 * Fermat Network: Fermat peer-to-peer network.
 * Network Node: Fermat Network decentralized server.
 * Network Client: Fermat Network decentralized Client.
-* Seed Server: Fermat First Network Node. Its the first reference for all the new nodes. There could be more that one seed server. Seed server's IP addess and port are known by clients at compile time.
+* Seed Server: Fermat First Network Node. It's the first reference for all the new nodes. There could be more than one seed server. The seed server's IP address and port are known by clients while compiling.
 * Network Relationships:
   * Node-Node
   * Client-Node
   * Client-Client
 * Network Node Catalog: Distributed catalog of nodes. It is used for the discovering and searching of Nodes. It will be managed by Nodes.
-* Node Profile: Profile of each node, it'll contains the necessary information to communicate with it: ip, port, name, etc.
+* Node Profile: Profile of each node, it'll contain the necessary information to communicate with it: IP, port, name, etc.
 * Actor Catalog: Distributed catalog of Actors. Is used for the discovering and searching of  Actors. It will be managed by Nodes.
 * Network Node Channel: Communication Channel between Nodes.
 * Network Client Channel: Communication Channel between Node and Client & Vice-versa.
 * Network Call Channel: Communication Channel between Client and Client.
 
 ### Scope
-La **"Fermat Network"** sera la red *"peer-to-peer"* utiliza por el sistema Fermat, y estara compuesta por dos tipos de componentes, los nodos llamados **"Network Nodes"** y los clientes llamados  **"Network Clients"** los cuales interactuan entre si, estas interacciones podrán ser de la siguientes formas **"Node to Node"**, **"Node to Client"** y **"Client to Client"**. 
+The **"Fermat Network"** will be the *"peer-to-peer"* network used by the Fermat system, and it'll be made up of two types of components, the nodes called **"Network Nodes"** and the clients caled **"Network Clients"** which interact with each other, these interactions could be **"Node to Node"**, **"Node to Client"** and **"Client to Client"**. 
 
-Los **"Network Nodes"** serán los componentes responsables de mantener la intercomunicación entre la red *"peer-to-peer"*, estos fungirán como servidores descentralizados los cuales proporcionaran servicios especializados a cada uno de los clientes y también a otros nodos, también tiene la responsabilidad de presentar y dar a conocer a cada uno de estos clientes en la red.
+The **"Network Nodes"** will be the components responsible to maintain the intercommunication between the *"peer-to-peer"* network, these will act as decentralized servers that provide specialized services to each of the clients as well as other nodes, it also has the responsibility of presenting and making each of these clients known on the network.
 
-Uno de los problemas principales en las redes *"peer to peer"* es el descubrimiento de los nodos disponibles en la red, para esto se implementara un Catalogo distribuido de nodos **"Network Node Catalog"** que tiene como finalidad mantener la relación e existencia de cada uno de los nodos disponibles que conforman la red, en dicho catalogo se almacenara información básica de cada uno de los nodos conocida como el **"NodeProfile"**, el cual estará compuesto por datos como: ip, puerto, nombre, localización y etc.  La responsabilidad de la administración y mantenimiento de este catalogo sera exclusiva de los mismos nodos **"Network Node"**, estos tendrán la responsabilidad de llenar, compartir y mantener actualizado este catalogo.
+One of the main problems with *"peer to peer"* networks is the discovery of the nodes available on the network, for this a nodes distributed catalog will be implemented **"Network Node Catalog"** whose objective is to maintain the relationship and existence of each of the nodes available that make up the network, the basic information of each of the nodes will be stored, known as **"NodeProfile"**, that will have data such as: IP, ports, name, location etc.  The nodes will have the exclusive responsibility of managing and maintaining this catalog. **"Network Node"**, these will have the responsibility of filling, sharing and keeping this catalog updated.
 
-También se contara con la implantación de un catalogo distribuido de actores **"Actor Catalog"** en cual sera utilizado para el descubrimiento y busqueda de cada uno de ellos en la red "peer-to-peer", como en el caso del **"Network Node Catalog"**  la administración y mantenimiento de este catalogo sera exclusiva responsabilidad de los mismos nodos **"Network Node"**.
+an implementation of an actors catalog will also be featured **"Actor Catalog"** that will be used for searching and finding of each one of them on the "peer-to-peer" network, just like in the case of the **"Network Node Catalog"**  the nodes will have the exclusive responsibility of managing and maintaining this catalog **"Network Node"**.
 
-Se ha definido que cada  **"Network Node"** estará compuesto por dos canales principales de comunicación conocidos **"Network Node Channel"** y **"Network Client Channel"**, cada uno especializado para el intercambio de datso entre los componentes de la red dependiendo su tipo; es decir tendrán un canal de comunicación exclusiva para el envió de información entre  **"Network Node"** a **"Network Node"** , y otro canal utilizado para el envió de información entre **"Network Clients"** a **"Network Node"** y viceversa.
+It has been determined that every **"Network Node"** will be made up of two main communication channels known as **"Network Node Channel"** y **"Network Client Channel"**, each one specialized on the exchange of data between the components of the network depending of its type; meaning, they will have an exclusive communication channel in order to send information from  **"Network Node"** to **"Network Node"** , and another channel used to send information from **"Network Clients"** to **"Network Node"** and vice versa.
 
-El cliente **"Network Client"** sera el que se ejecutara en cada uno de los dispositivos que fungirán como clientes de la red peer-to-peer, y son los responsables de proveer una interface o API de comunicación a los otros componentes del sistema tales como son los **"Network Services"** y **"Actores"**. 
+The client **"Network Client"** will run in each of the devices that will serve as clients of the peer-to-peer network, they are responsible of providing an interface or API of communication to the other components of the system such as **"Network Services"** and **"Actors"**. 
 
-Los clientes contaran también con dos canales de comunicación exclusivos llamados **"Network Client Channel"** y **"Network Call Channel"**, el primero para la intereacción con los nodos de la red, y otro que sera utilizando para envió de información y datos entre clientes de la red.
+The clients will count on two exclusive communication channels called **"Network Client Channel"** and **"Network Call Channel"**, the first one used for the interaction with network nodes, and another one used to send data and information between network clients.
 
 
-Para cada uno de estos canales se han identificado los siguientes casos de usos y métodos, los cuales serán expuestos como servicios por cada uno de estos ellos:
+We have identified the following use cases and methods for each of these channels, that will be exposed as services for each of them:
 
 ### Fermat Network Nodes:
 #### Network Node Channel:
@@ -82,18 +82,18 @@ Para cada uno de estos canales se han identificado los siguientes casos de usos 
 
 ### Tasks
 
-Having in count the responsibility that must be accomplished by the **"Network Nodes"** of distributing and mantain the actor and node catalogs we define a serie of tasks, to be done by agent components:
+Taking into account the responsibility that must be achieved by the **"Network Nodes"** for distributing and maintaining the actor and node catalogs we established a series of tasks, to be done by agent components:
 
-1. Propagate Node Catalog Task
-2. Propagate Actor Catalog Task
+1. Spread Node Catalog Tasks
+2. Spread Actor Catalog Tasks
 
 ### Network Node Features
 
-#### Task: Propagate Node Catalog 
-Esto es un agente que se ejecuta cada 1 minuto en el Network Node. Al iniciar dicho agente el Network Node Verifica en la tabla de "NODES_CATALOG_TRANSACTIONS_PENDING_FOR_PROPAGATION" si existen registros nuevos, en caso de que existan registros el Network Node busca en el catalogo de Network Nodes 10 Network Nodes que tengan menos notificaciones tardías de registros entonces obtiene un Network Node de la lista e intenta conectarse con el Network Node si la conexión es satisfactoria se envía el bloque de transacciones, recibe una respuesta de parte del otro Network Node Verifica si es una "Notificación de información tardia" entonces Aumenta el valor del campo "LATE_NOTIFICATION_COUNTER" para ese Network Node Actualiza el registro en la base de datos y cierra la conexión con dicho Network Node, aumenta el contador de propagaciones exitosas, en caso contrario de que no se logro conectarse obtiene otra vez un Network Node de la lista e intenta conectarse con el Network Node para enviarle el bloque de transacciones; luego de haber recorrido los 10 Network Nodes que tienen menos notificaciones tardías de registros el catalogo de Network Nodes valida si el contador de propagaciones exitosas es igual a 10 entonces borra las transacciones enviadas a los otros Network Nodes de la tabla "NODE_CATALOG_TRANSACTIONS_PENDING_FOR_PROPAGATION" y se duerme el agente por el tiempo configurado, en caso de que el contador de propagaciones exitosas es diferente a 10 entonces busca en el catalogo de Network Nodes 10 que tengan menos notificaciones tardías de registros y repite toda la operación nuevamente.
+#### Task: Spread Node Catalog 
+This is an agent that runs every 1 minute in the Network Node. When you start the agent the Network Node verifies in the "NODES_CATALOG_TRANSACTIONS_PENDING_FOR_PROPAGATION" table if new records exist, in case records do exist the Network Node searches in the Network Nodes catalog for 10 Network Nodes that have fewer late record notifications then it gets a Network Node from the list and tries to connect with the Network Node, if the connection is successful a block of transactions is sent, it receives a response from the other Network Node it verifies it if is a "late information notification" it then increases the value of the field "LATE_NOTIFICATION_COUNTER" for that Network Node it then updates the base record in the data base and closes the connection with that Network Node, the accountant of successful spreads increases, in case it wasn't able to connect it gets a Network Node again from the list and it tries to connect with it to send it the block of transactions; after going over the 10 Network Nodes that have fewer late record notifications the Network Nodes catalog validates if the accountant of  successful spreading is equal to 10 it then clears the transactions sent to the other Network Nodes in the "NODE_CATALOG_TRANSACTIONS_PENDING_FOR_PROPAGATION" table and the agent is put to sleep during the time configured, in case the accountant of successful spreads is different to 10 it then searches in the Network Nodes catalog for 10 that have fewer late record notifications and it repeats the whole transaction once more.
 
-#### Task: Propagate Actor Catalog 
-This scheduled task es el encargado de realizar el proceso de propagación entre los nodos la información almacenada en el catalogo de actores, comienza verificando en la tabla de "ACTOR_CATALOG_TRANSACTIONS_PENDING_FOR_PROPAGATION" si existen registros, cuando consigue estos registro el mismo agente va conectarse con otros "Network Nodes" y le transmitirá el conjunto de transacciones en un bloque. Cada vez que logre transmitir el bloque exitosamente a otro "Network Nodes" se ira descontando del contador de "Propagaciones exitosas", este al confirmar que el contador ha alcanzado el numero de cero (0) procederá a borrar todos los registros que se encontraban almacenados en la tabla "ACTOR_CATALOG_TRANSACTIONS_PENDING_FOR_PROPAGATION".
+#### Task: Spread Actor Catalog 
+This scheduled task is in charge of making the spread task between the nodos, the information stored in the actors catalog, begins verifying in the  "ACTOR_CATALOG_TRANSACTIONS_PENDING_FOR_PROPAGATION" table if records exist, when it finds such records the agent then connects with other "Network Nodes" and it will pass on the set of transactions in one block. Every time it passes on the block successfully to other "Network Nodes" the accountant will begin to deduct "successful spreads", once it confirms the accountant has reached the number zero (0) it will to proceed to clear all the records found stored in the "ACTOR_CATALOG_TRANSACTIONS_PENDING_FOR_PROPAGATION" table.
 
 #### Database:
 
@@ -103,22 +103,22 @@ This scheduled task es el encargado de realizar el proceso de propagación entre
 
 #### Process: Receive Actor Catalog Transactions
 
-Este proceso inicia cuando el Network Node recibe nuevo bloque de transacciones de parte de otro Network Node, luego resta uno al contardor de propagaciones pendientes, Obtiene una transacción del bloque y verifica si existe el registro en la tabla "ACTOR_CATALOG" si es así entonces toma otro bloque transacción y repite operación, en caso de que no exista ese registro en la tabla "ACTOR_CATALOG" entonces aplica la transaccion en la tabla "ACTOR_CATALOG" guarda las transacciones en la tabla "ACTORS_CATALOG_TRANSACTIONS" y verifica si la propagación ha alcanzado el número máximo de nodos si el Contador de propagaciones pendientes es diferente a 0 entonces guarda las transacciones en la tabla "PENDING_CATALOG_TRANSACTIONS_FOR_PROPAGATION"
+This process begins when the Network Node receives a new block of transactions from another Network Node, it then deducts one from the pending spread accountant, it obtains a transaction from the block and it verifies if a record exists in the "ACTOR_CATALOG" table, if it is so, it then takes another transaction from the block and repeats the transaction, in case the record does not exist in the  "ACTOR_CATALOG" table it then applies the transaction in the "ACTOR_CATALOG" table, saves the transaction in the "ACTORS_CATALOG_TRANSACTIONS" table and verifies if the spread has reached the maximum number of nodes if the pending spread accountant is different to 0 it then saves the transactions in the "PENDING_CATALOG_TRANSACTIONS_FOR_PROPAGATION" table.
 
 #### Process: Get Catalog
-Este proceso inicia cuando el "Network Node" recibe una nueva solicitud de catalogo de "Network Node", entonces Busca y filtra por el numero de registros solicitados en la tabla "NODES_CATALOG" y por ultimo Retorna dicho catalogo al solicitante otro "Network Node".
+This process begins when the "Network Node" receives a new catalog request of "Network Node", it then searches and filters through the number of requested records in the "NODES_CATALOG" table and lastly it returns the catalog to the other requesting "Network Node".
 
 #### Process: Get Catalog Transactions
-Este proceso inicia cuando el "Network Node" Recibe una nueva solicitud de transacciones catalogo de "Network Node", entonces busca y filtra por el numero de registros solicitados en la tabla "CATALOG_TRANSACTIONS" y por ultimo retorna dicho catalogo al solicitante otro "Network Node".
+This process begins when the "Network Node" receives a new catalog request of "Network Node" transactions, it then searches and filters through the number of requested records in the "CATALOG_TRANSACTIONS" table and lastly it returns the catalog to the other requesting "Network Node".
 
 #### Process: Receive Node Catalog Transactions
-En este proceso un "Network Node" recibe un nuevo bloque de transacciones, luego va Tomando una transacción del bloque para procesarla, por cada transacción recibida verifica si existe en la tabla "NODE_CATALOG", si existe registro entonces Aumenta el contador de notificación de aviso tardío en el caso de que no exista el registro entonces aplica la transacción en la tabla "NODE_CATALOG", Guarda las transacciones en la tabla "CATALOG_TRANSACTIONS" y por ultimo guarda las transacciones en la tabla "NODES_CATALOG_TRANSACTIONS_PENDING_FOR_PROPAGATION" y responde al "Network Node" que envió el bloque el número de registros ya conocidos.
+In this process a "Network Node" receives a new block of transactions, it then takes a transaction from the block to process, for each received transaction it verifies if it exists in the "NODE_CATALOG" table, if a record exists then it increases the late notification accountant in case the record does not exist it then applies the transaction in the "NODE_CATALOG" table, then saves the transaction in the "CATALOG_TRANSACTIONS" table and lastly saves the transactions in the "NODES_CATALOG_TRANSACTIONS_PENDING_FOR_PROPAGATION" table and responds to the "Network Node" that sent the block, the number of reords already known.
 
 #### Process: Client To Node Connection
-Este proceso inicia cuando el Network Node recibe la nueva solicitud de conexión de parte de un Network Client si la conexión es satisfactoria entonces inserta en la base de datos "CLIENT_CONNECTION_HISTORY" un nuevo registro con el perfil del Network Node con estatus "SUCCESS" y realizan el Intercambio de claves publicas, si la conexión no es satisfactoria entonces inserta en la base de datos "CLIENT_CONNECTION_HISTORY" un nuevo registro con el perfil del Network Node con estatus "FAIL" y envía notificación de conexión fallida.
+This process begins when the "Network Node" receives a new connection request from a "Network Client" if the connection is successful it then adds to the "CLIENT_CONNECTION_HISTORY" data base a new record with the "Network Node" profile with a status of "SUCCESS" and then an exchange of public passwords is made, if the connection is not successful it then adds to the "CLIENT_CONNECTION_HISTORY" data base a new record with the Network Node profile with a status of "FAIL" and it sends a notification of failed connection.
 
 #### Process: Get Nearby Nodes
-Este proceso inicia cuando el Network Node Recibe la nueva solicitud de lista de Network Nodes cercanos, entonces calcula la distancia de los Network Nodes registrados en la tabla "NODE_CATALOG" con relación a la geolocalización del Network Client ordena el resultado de los cálculos de menor a mayor, extrae los 50 primeros nodos mas cercanos y retorna la lista al Network Client.
+This process begins when the "Network Node" receives a new list request of nearby "Network Nodes", it then estimates the distance of the Network Nodes recorded in the "NODE_CATALOG" table in relation to the geolocation of the Network Client it then organizes the estimated results from low to high, then it pulls out the closest first 50 nodes and lastly it returns the list to the Network Client.
 
 ### Network Client Features
 
@@ -141,24 +141,24 @@ https://plus.google.com/events/cdmbbvvvah3gf6vqveaf67g8hs0
 
 ## Timeline
 
-Based on current workload and resouces available, the delivery date of this bounty will be **April 2016**.
+Based on current workload and available resources, the delivery date for this bounty will be **April 2016**.
 
 ## Evaluation
 
-To be considered success this bounty must pass the following tests:
+In order to be considered successful this bounty must pass the following tests:
 
 * Management and distribution of Node Catalog:
-  * Succesfully registration of Multiple Network Nodes to the Seed Server.
-  * Proper updating of the Nodes Catalog when this happened.
-  * Right propagation of the Nodes Catalog (7).
-* Succesfully registration of Actors.
-* Succesfully registration of Network Clients.
-* Succesfully registration of Network Services.
+  * Successful registration of Multiple Network Nodes to the Seed Server.
+  * Proper updating of the Nodes Catalog when done.
+  * Right spread of the Nodes Catalog (7).
+* Successful registration of Actors.
+* Successful registration of Network Clients.
+* Successful registration of Network Services.
 * Management and distribution of Actors Catalog:
-  * Succesfully registration of Multiple Actors to the Seed Server. LUIS:  ???? que seria esto ???
-  * Proper updating of the Actors Catalog when this happened.
-  * Right propagation of the Actors Catalog (7).
-* Geo-location search (get nearby nodes).
+  * Successful registration of Multiple Actors to the Seed Server. LUIS:  ???? que seria esto ???
+  * Proper updating of the Actors Catalog when done.
+  * Right spread of the Actors Catalog (7).
+* Geolocation search (get nearby nodes).
 * Network Calls between clients.
 * Actor Calls between clients.
 * Test migration of one network service to the new scheme (selected: ccp-actor-network-service-intra-actor).
@@ -166,7 +166,7 @@ To be considered success this bounty must pass the following tests:
 *[Evaluation results to be completed after evaluation]*
 
 ## Limitations
-* Calls analysis not completed.
+* Call analysis not completed.
 * Database and File System add-ons linux version creation in progress.
 * Location Add-on linux version not created.
 * 
