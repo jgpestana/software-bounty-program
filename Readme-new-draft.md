@@ -6,18 +6,18 @@ We are running a bounty program to complete the projected functionality as soon 
 
 # Types of projects 
 
-1. **Use Case Analisys:** Here we identify the actors and use cases involved. The deliverables expected are: Spreadsheet with platform, actors, functionality group, use cases, MVP, versions, etc.
+1. **Use Case Analysis:** Here we identify the actors and use cases involved. The deliverables expected are: Spreadsheet with platform, actors, functionality group, use cases, MVP, versions, etc.
 
 Reference video: https://www.youtube.com/watch?v=YU_HqeML3-w
 Spreadsheet view link: https://docs.google.com/spreadsheets/d/12EIEfwvLflUu2h81ZSQnwg-OwqC752bxXO8XnC8bEQU/edit?usp=sharing
 
-2.	**GUI/UX:** Here we design the user interfaces and user's experience. The deliverables expected are: mockups and graphic design of every single screen of the app.
+2.	**GUI/UX:** Here we design the user interfaces and user's experience. The deliverables expected are: mockups and graphic designs of every single screen of the app.
 
-3.	**Fermat Analysis:** Here we identify Fermat components and their workflows. Also Platforms and there relationships. The deliverables expected are: platforms, layers, components and workflows uploaded to fermat.org.
+3.	**Fermat Analysis:** Here we identify Fermat components and their workflows. Also Platforms and their relationships. The deliverables expected are: platforms, layers, components and workflows uploaded to fermat.org.
 
 4.	**Implementation:** Here we write the code, write unit tests, write documentation, integrate the components, and do integration testing. The deliverables expected are: working solution ready for alpha stage.
 
-The projects described are expected to be done by different teams because each team requires and unique set of skills.
+The projects described are expected to be done by different teams because each team requires a unique set of skills.
 
 ## Sign-up - License Agreement - (READ FIRST)
 Anyone who adds value to the Project in any form needs to sign up a Contribution License Agreement as the first step to become part of the project. To do that, please follow the steps described [here](https://github.com/bitDubai/contribution-program/tree/master/license-agreements/README.md) 
@@ -36,41 +36,41 @@ Now, after signing up,  you can follow the Bounty program procedure below.
 
 ## Rules
 
-1.	The projects oriented to solve each problem must be taken in the following order : GUI/UX, Analysis and then Implementation. No one can take a Analysis project if the GUI/UX stage is still in process, and the same with respect to Implementation project and the Analysis stage.
+1.	The projects oriented to solve each problem must be taken in the following order : GUI/UX, Analysis and then Implementation. No one can take an Analysis project if the GUI/UX stage is still in process, and the same goes to Implementation project and the Analysis stage.
 
 2.	To take a project you must put your name and date in the table of bounties and then you have one week to prepare an agreement or project charter that describes the scope, the time needed to finish it, and the acceptance criteria to consider the work done. The @bounty-program-team will evaluate your proposal and decide if take it or not.
 
 3.	Once @bounty-program-team accepts the project charter will write the finish date in the bounty table.
 
-4.	On the finish date each team must showcase the deliveries associated with the project taken and the jury will evaluate, according to the project charter, if the bounty is should be awarded or not.
+4.	On the finish date each team must showcase the deliveries associated with the project taken and the jury will evaluate, according to the project charter, if the bounty should be awarded or not.
 
 5.	If you miss the target month for any reason you can still be awarded half of the bounty if you reach the targe phase the following month.
 
-6.	A team has to maintain the code implemented during the first 3 months in production.
+6.	A team has to maintain the code implemented during the first 3 months of production.
 
 7.	The team will be awarded a 10% extra of the bounty received for each of these 3 months.
 
-8.	The distribution of the bounty between the team members is free. It is up to the team to decide how to distribute the bounty between them or other people from other teams that helped.
+8.	The distribution of the bounty between the team members is done freely. It is up to the team to decide how to distribute the bounty between them or with other people from other teams that helped.
 
-9.	Team leaders can make agreements for tokens of the possible bounty with other team leaders to help them with the project. In fact this is expected to happend with graphic designers, UX designers, copywriters and others, in order to secure their commitment to the project for certain dates.
+9.	Team leaders can make agreements for tokens of the possible bounty with other team leaders to help them with the project. In fact this is expected to happen with graphic designers, UX designers, copywriters and others, in order to secure their commitment to the project for certain dates.
 
-10.	Reaching production phase means passing all controls, checks and approvals that might be in place by the time the code is implemented. Those approval procedures might or might not be in place at present time.
+10.	Reaching production phase means passing all controls, checks and approvals that might be in place by the time the code is implemented. Those approval procedures might or might not be currently in place.
 
 11.	The conditions of bounties that are not yet Assigned might be changed at anytime by the @bounty-program-team. Once assigned, the conditions will stay fixed.
 
-12.	If the @bounty-program-team sees a lack of commitment of a team with the project assigned or a the progress is too slow, it might cancel the assigment and return the project to the pool of Not Assigned bounties.
+12.	If the @bounty-program-team sees a lack of commitment of a team with the project assigned or if the progress is too slow, it might cancel the assigment and return the project to the pool of Not Assigned bounties.
 
-13.	If you achieve it within the target you will get 100% of the bounty (of course), if you make it during the next 30 days after the deadline you'll get 50%, from day 31 to 60 you'll get 0, from day 61 to 90 you will have to pay 50% in tokens and from day 91 to 120 you will pay 100% of the tokens.
+13.	If you achieve the project within the target you will get 100% of the bounty (of course), if you make it during the next 30 days after the deadline you'll get 50%, from day 31 to 60 you'll get 0, from day 61 to 90 you will have to pay 50% in tokens and from day 91 to 120 you will pay 100% of the tokens.
 
 14.	The agreement document or project charter will be updated once the bounty is won with a distribution table where all beneficiaries will be listed together with the percentage that they will receive.
 
-15.	The payment of the bounty will be done when the project is released to general public (production). The amount of Tokens to receive will be calculated at the Tokens price at the date the project is relesed to the public.
+15.	The payment of the bounty will be done when the project is released to the general public (production). The amount of Tokens to receive will be calculated at the Tokens price at the date the project is relesed to the public.
 
 16.	The bounty awarded expires after 30 days of the DEMO day if the project has not been released.
 
-17.	A Team cannot participate on other bounty of this program until the current one they are working at is released (production).
+17.	A Team cannot participate on other bounties of this program until the current one they are working on gets released (production).
 
-18.	Team members cannot leave the team for other teams before the project reaches the phase specified on this bounty program. The only way to leave is leaving the Fermat project.
+18.	Team members cannot leave the team for other teams before the project reaches the phase specified on this bounty program. The only way to leave is by leaving the Fermat project.
 
 19.	GUI/UX and Analysis project types have one free review. The following reviews without approval will cost the team 25% of the bounty each.
 
@@ -114,13 +114,13 @@ Below you can see a table with all current bounties available and their status.
 |P2P Delivery|Anlysis|  |  |  |  |  | 
 |P2P Delivery|Implementation|  |  |  |  |  | 
 
-Please Note: Target month and bounty offer may change while their status is _Not Assigned_
+Please Note: Target month and bounty offers may change while their status read _Not Assigned_
 
 ## Reference 
 
-**Type** : Means the type of project. The possible projects are: GUI Design (GUI), Analisys (A), Implementation (CODE), All of the previous one (All).
+**Type** : Means the type of project. The possible projects are: GUI Design (GUI), Analysis (A), Implementation (CODE), All of the previous ones (All).
 
-**D** : Means _Depends on_. The project listed dependes on other project to be completed in order to be started. 
+**D** : Means _Depends on_. The project listed depends on other projects to be completed in order to be started. 
 
 **Target Month** : Is the month where this functionality should reach production. It is considered to hit the target if it reaches production any day of that month.
 
