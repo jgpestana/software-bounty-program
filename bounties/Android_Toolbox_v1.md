@@ -4,15 +4,15 @@
 
 ## Introduction
 
-Fermat es una aplicación compleja que corre sobre su propio framework de desarrollo, se encontra en una capa sobre el sistema operativo, en este primer momento estamos desarrollando sobre android, por lo cual, se deben crear las bases para poder facilitar y agilizar la creación de aplicaciónes en nuestra plataforma.
+Fermat is a complex application that rus on its own development framework, its found a layer above the operating system, on this first stage we are developing on android, therefore, we must create the bases in order to make easier and faster the creation of applications in our platform.
 
-Se deben desarrollae los componentes,vistas,utilidades y optimizadores para poder llegar a un nivel de abstracción superior, dejando de pensar en vistas como codigo si no como componentes ya pre diseñados, comenzando por el nivel más bajo  del framework y subiendo hasta llegar a componentes ya previamente elaborados para su uso.
+We must develop the components, views, utilities and optimizers in order to reach a superior abstraction level, stopping to think of views as code but as components already pre-designed, starting with the lowest level of the framework and going higher until reaching the components already pre-made for use.
 
 ## Scope
 
 ### Current developments in progress
 
-In the present, the toolbox have the basics things to develop in fermat, we have to expand it more with:
+Currently, the toolbox has basic things to develop in fermat, we have to expand it more with:
 
 ## General Purpose
 
@@ -35,7 +35,7 @@ In the present, the toolbox have the basics things to develop in fermat, we have
 * Yes / No
 * TutorialDialog
 * Dialog Welcome Screen / Help Screen
-* FermatDialog (Dialog with the fermat basics for custom develop)
+* FermatDialog (Dialog with fermat basics for custom development)
 
 ## Adapters
 * Recycler adapter
@@ -52,7 +52,7 @@ In the present, the toolbox have the basics things to develop in fermat, we have
 * BitmapWorker
 * ExecutorWorker
 
-## Tranformation effect
+## Transformation effect
 * CircleTransformation
 
 ## Inflater
@@ -62,18 +62,18 @@ In the present, the toolbox have the basics things to develop in fermat, we have
 
 #### Toolbox version V1
 
-Se desarrollarán los siguientes componentes,views,widget,optimizadores,utilidades y mejoras (hace falta acomodarlos por niveles, lo voy a hacer en mi documento y después lo paso acá):
+The following components, views, widgets, optimizers, utilities and upgrades will be developed (we must organize them by levels, i will do it on my document and then i will place it here):
 
 ---
-| Artefacto  | Descripción  | Idea  | Tipo de vista  |
+| Artifact  | Description  | Idea  | Type of view  |
 |:----:|:----:|:----:|:----:|
-|ChatView	| fragmento ya pre-armado con lista de chat, burbujas, adapter, holders.|	Luis |	fragmento |
-|notificationes	| template de notificaciones y posibilidad de notificaciones custom a traves de un painter |	furszy |	view |
-|CoinUnitsPicker |	selector de las diferentes unidades de una moneda, por ejemplo: bitcoin (mili,micro,satoshis,etc) |	furszy |	dialog,popup,fragmento |
-|CurrencySelectorDialog |	selector de monedas fiat/crypto  |	Luis |	dialog,popup,fragmento |
-|SettingsView |	diseño de vista para el settings de cualquier aplicacion fermat, se debe crear toda la infraestructura para construir esto de forma escalable y fácil de ampliar con diferentes componentes |	furszy	| Componente |
-|FermatAdapter 2.0 |	Mejorar el fermat adapter para que sea mas sencillo agregar tipos de row,por ejemplo footers , headers, etc. |	nelsonalfo |	Adapter|
-|fermatViewHolder 2.0 |	Mejorar el view holder con lo nuevo del adapter para poder almacenar las vistas armadas|	furszy|	ViewHolder|
+|ChatView	| already pre-assembled fragment with chat list, bubbles, adapter, holders.|	Luis |	fragmento |
+|notificationes	| notifications template and possibility of custom notifications through a  painter |	furszy |	view |
+|CoinUnitsPicker |	selector of the different units of currency, for example: bitcoin (mili, micro, satoshis, etc) |	furszy |	dialog, popup, fragment |
+|CurrencySelectorDialog |	selector of fiat/crypto currency  |	Luis |	dialog, popup, fragment |
+|SettingsView |	view design for the settings of any fermat application, we must create the whole infraestructure in order to build this in a scalable way and easy to expand with different components |	furszy	| Component |
+|FermatAdapter 2.0 |	upgrade the fermat adapter to make adding row types easier, for example footers, headers, etc. |	nelsonalfo |	Adapter|
+|fermatViewHolder 2.0 |	Upgrade the view holder with everything new adapter has in order to store the views build|	furszy|	ViewHolder|
 |SendForm |	desarrollar un formulario de envió básico para todas las plataformas|	furszy|	view|
 |FermatLoadingView |	una view de loading con estilo de fermat |	furszy|	view|
 |FermatSearchView |	SearchView en el toolbar con collapse y expand	|furszy/no se quien la pidió |	view |
