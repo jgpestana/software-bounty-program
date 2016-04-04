@@ -11,10 +11,11 @@ Now, after signing up,  you can follow the Bounty program procedure below.
 
 ## Software Release Life Cycle
 
-A software release life cycle is the sum of the stages of development and maturity for a piece of computer software: ranging from its initial development to its eventual release, and including updated versions of the released version to help improve software or fix bugs still present in the software.
+A software release life cycle is the sum of the stages of development and maturity for a piece of computer software: ranging from its design and initial development to its eventual release, and including updated versions of the released version to help improve software or fix bugs still present in the software.
 
 We adhere to the following definitions:
 
+* [Architecture Design] (https://en.wikipedia.org/wiki/Software_architecture)
 * [Pre-Alpha] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha)
 * [Alpha] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Alpha)
 * [Beta] (https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta)
@@ -48,7 +49,8 @@ We adhere to the following definitions:
 14. The bounty awarded expires after 30 days of the DEMO day if the project has not been released.
 15. A Team cannot participate on other bounty of this program until the current one they are working at is released (production).
 16. Team members cannot leave the team for other teams before the project reaches the phase specified on this bounty program. The only way to leave is leaving the Fermat project.
-17. GUI and A project types have one free review. The following reviews without approval will cost the team 25% of the bounty each.
+17. GUI and Architecture Design project types have one free review. The following reviews without approval will cost the team 25% of the bounty each.
+18. Architecture Design deliverables includes the component architecture and workflows created in [dev.fermat.org] (http://dev.fermat.org) and the Interfaces in the API library of the platform. 
 
 ## 2016 Bounties
 
@@ -59,16 +61,17 @@ Below you can see a table with all current bounties available and their status.
 |All|Crypto Currency Platform|Jan / Alpha | 5,000 | Fermat Tokens | Assigned Beta ![Beta Testing](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/beta-testing.png "Beta testing")| Coin Diggers | Sep 2015 / Jan 2016 | 5,000 | 
 |All|Chat Platform| Jan / Alpha  | 5,000 | Fermat Tokens | Assigned Implementing  ![Delayed](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/delayed-small.png "Delayed")|Gabriel, José & Miguel | Dec 2015 | | 
 |All|Crypto Broker Platform|Jan / Alpha | 15,000 | Fermat Tokens | Assigned Implementing  ![Delayed](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/delayed-small.png "Delayed")| Nelson & Cía | Oct 2015 | | 
-|All|[Digital Assets Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital-Asset-Platform.md)| Jan / Alpha | 10,000 | Fermat Tokens | Assigned Alpha  ![Delayed](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/delayed-small.png "Delayed")| Thunder | Aug 2015 / Jan 2016 | 10,000 | 
+|All|[Digital Assets Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital-Asset-Platform.md)| Jan / Alpha | 10,000 | Fermat Tokens | Assigned Alpha  !Assigned Beta ![Beta Testing](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/beta-testing.png "Beta testing")| Thunder | Aug 2015 / Jan 2016 | 10,000 | 
 |All|Fermat ORG P2P| Jan / Alpha | 15,000 | Fermat Tokens | Assigned Implementing  ![Delayed](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/delayed-small.png "Delayed")| Miguel Luis | Dec 2015 | | 
 |All|[Fermat ORG Editable](bounties/Fermat.org V3.md)| Jan / Release | 10,000 | Fermat Tokens | Assigned Implementing  ![Delayed](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/delayed-small.png "Delayed")| Ricardo Emmanuel | Dec 2015 | |
 |All|[Recover Fermat Repo History](https://github.com/Fermat-ORG/bounty-program/blob/master/bounties/Recover-FermatRepoHistory.md)|Jan | 1,000 | Fermat Tokens | Assigned Finished ![Approved](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/approved-stamp.png "Approved")| Manuel | Jan 2016 / Jan 2016 | 1,000 | 
-|All|[Digital Assets Platform v2](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital%20Assets%20Platform%20v2.md)|March / Alpha | 10,000 | Fermat Tokens | Assigned Alpha ![Alpha Testing](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/alpha-testing.png "Alpha testing")| Thunder  |Feb 2016 / Mar 2016|10,000| 
+|All|[Digital Assets Platform v2](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital%20Assets%20Platform%20v2.md)|March / Alpha | 10,000 | Fermat Tokens | Assigned Beta ![Beta Testing](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/beta-testing.png "Beta testing")| Thunder  |Feb 2016 / Mar 2016|10,000| 
 |All|[Reduce 50% Compilation Time] (https://github.com/FERMAT-ORG/software-bounty-program/blob/master/bounties/Reduce_compilation_time.md)|February / Release| 2,000 | Fermat Tokens | Assigned Finished ![Approved](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/approved-stamp.png "Approved")|Manuel, Victor & Nerio|February 2016|2,000| 
 |All|[Android Components Tool Box](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Android_Toolbox_v1.md)| March 15th | 10,000 | Fermat Tokens | Assigned Alpha ![Alpha Testing](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/alpha-testing.png "Alpha testing")| Matias | Feb 2016 / Mar 2016 | 10,000 | 
 |All|[Cloud Server Monitor](https://github.com/Rart3001/bounty-program/blob/master/bounties/P2P_Cloud_Server_v1.md)| March 15th | 2,500 | Fermat Tokens |  Assigned Alpha ![Alpha Testing](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/alpha-testing.png "Alpha testing") | Roberto | Feb 2016 / Mar 2016 | 2,500 | 
 |All|Fermat P2P Network v1|  Mar 2016 | 20,000 | Fermat Tokens | Assigned Implementing ![Under Construction](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/under-construction.png "Under Construction")| Roberto & Leon | Apr 2016 | | 
 |All|Loss Protected Wallet| Mar 2016 | 10,000 | Fermat Tokens | Assigned Implementing ![Under Construction](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/under-construction.png "Under Construction") | Natalia | Mar 2016 | | 
+|All|[Digital Assets Platform V3](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital%20Assets%20Platform%20v3.md)| Apr 2016 | TBD | Fermat Tokens | Assigned Arch Design | Thunder | | | 
 |All|[Fermat Token Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Fermat-Token-Platform.md)|  | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |All|Digital Asset Store|  | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |All|Fermat Blockchain Identities|  | 25,000 | Fermat Tokens | Not Assigned | | | | 
