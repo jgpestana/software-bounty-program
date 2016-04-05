@@ -525,6 +525,12 @@ Criterios de Aceptacion:
 
 Para considerar este bounty exitoso se debe cumplir los Criterios de Aceptacion de los flujos expuestos anteriormente.
 
+La Fecha del Demo Day se fijó para el 31 de Marzo 2016 en donde se cumplieron los criterios de aceptacion para los diferentes features descritos arriba. Al finalizar la presentación de Demo se llegaron a las siguientes concluciones:
+
+- Esta version del proyecto pasa a la fase de Beta Testing
+- Los projectos CSH, BNK y CER sera tratados como proyectos indenpendientes y cada uno tendra su propia fase Beta Testing
+- La fecha de inicio del Beta Testing para CBP, CSH, BNK, y CER estan por ser determinadas
+
 
 ### Distribution by Contributor
 
