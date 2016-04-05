@@ -12,6 +12,9 @@ The Fermat book chapters related to this bounty can be found here:[Chapter 16 - 
 
 ## Scope
 
+Segun lo acordado el 100% de Bounty para el proyecto CBP y sus Side Proyects se dividiran en dos versiones. La **Version 1**  representa el **70% del Bounty** y tantos sus features como criterios de aceptacion estan descritos en este documento; la **Version 2** representa el otro **30% del Bounty** y tantos sus features como criterios de aceptacion estan descritos en [este otro documento](https://github.com/Fermat-ORG/software-bounty-program/blob/master/bounties/Crypto_Broker_Platform_V2.md)
+
+
 ### CBP Platform
 
 La plataforma contara con las siguientes caracteristicas, apoyandose , cada una de ellas tiene una serie de Crterios de Aceptacion asi como componentes involucrados:
@@ -528,12 +531,12 @@ Para considerar este bounty exitoso se debe cumplir los Criterios de Aceptacion 
 
 |Contributor           | Bounty Amount | 
 |----------------------|:----:|
-|Alejandro Bicelis     | 3000 |
-|Angel Veloz           | 3000 |
-|Guillermo Guitierrez  | 3000 |
-|Nelson Ramirez        | 3000 |
-|Yordin Da Rocha       | 3000 |
-|**Total**             | **15000** |
+|Alejandro Bicelis     | 2100 |
+|Angel Veloz           | 2100 |
+|Guillermo Guitierrez  | 2100 |
+|Nelson Ramirez        | 2100 |
+|Yordin Da Rocha       | 2100 |
+|**Total**             | **10500 of 15000** |
 
 
 ### Distribution by Features 
@@ -548,18 +551,15 @@ Cada caracteristica expuesta mas arriba tiene un porcentaje que representa parte
 |Configuracion Previa (Wizard) de la Customer Reference Wallet | 3% |
 |Configurar la Broker Wallet                                   | 3% |
 |Configurar la Customer Wallet                                 | 3% |
-|Conectar un Crypto Customer con un Crypto Broker              | 6% |
-|Obtener cotizaciones de un Broker                             | 6% |
-|Permitir a un Crypto Customer iniciar una nueva Negociacion   | 8% |
-|Actualizar una negociacion                                    | 8% |
+|Conectar un Crypto Customer con un Crypto Broker              | 5% |
+|Obtener cotizaciones de un Broker                             | 5% |
+|Permitir a un Crypto Customer iniciar una nueva Negociacion   | 5% |
+|Actualizar una negociacion                                    | 6% |
 |Cancelar una negociacion                                      | 4% |
-|Cerrar una Negociacion y crear un Contrato                    | 7% |
-|Procesar un contrato de Pago Offline y Mercancia Offline      | 7% |
-|Procesar un contrato de Pago Online y Mercancia Offline       | 7% |
-|Procesar un contrato de Pago Offline y Mercancia Online       | 7% |
-|Cerrar Contrato                                               | 4% |
-|Extraccion de ganancias                                       | 6% |
+|Cerrar una Negociacion y crear un Contrato                    | 5% |
+|Procesar un contrato de Pago Online y Mercancia Offline       | 5% |
+|Procesar un contrato de Pago Offline y Mercancia Online       | 5% |
 |CSH Platform                                                  | 5% |
 |BNK Platform                                                  | 5% |
 |CER Super Layer                                               | 4% |
-|**Total**                                                    | **100%** |
+|**Total**                                                    | **70% of 100%** |
