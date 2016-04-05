@@ -14,7 +14,6 @@ The Fermat book chapters related to this bounty can be found here:[Chapter 16 - 
 
 Segun lo acordado el 100% de Bounty para el proyecto CBP y sus Side Proyects se dividiran en dos versiones. La **Version 1**  representa el **70% del Bounty** y tantos sus features como criterios de aceptacion estan descritos en este documento; la **Version 2** representa el otro **30% del Bounty** y tantos sus features como criterios de aceptacion estan descritos en [este otro documento](https://github.com/Fermat-ORG/software-bounty-program/blob/master/bounties/Crypto_Broker_Platform_V2.md)
 
-
 ### CBP Platform
 
 La plataforma contara con las siguientes caracteristicas, apoyandose , cada una de ellas tiene una serie de Crterios de Aceptacion asi como componentes involucrados:
@@ -430,6 +429,11 @@ Componentes Involucrados:
 - Plataforma CSH, BNK y CCP
 
 
+### Current Development in Progress
+
+Para el inicio de este proyecto se cuenta con la implementacion de la plataforma CCP que permite el envio y recepcion de bitcoins a traves de red Fermat. Utilizaremos las funcionaldades y componentes desarrollados para manejar negociaciones donde se desee comprar o vender Bitcoins
+
+
 ### Related Projects To Develop
 
 Para el desarrollo de la funcionalidad con la que contará la plataforma CBP es necesaria la creacion de varios Side Projects los cuales se especifican a continuacion indicando el alcance de los mismos:
@@ -517,11 +521,6 @@ Criterios de Aceptacion:
  - Implementacion de la funcionalidad e integracion de la capa CER con la plataforma CBP
 
 
-### Current Development in Progress
-
-Para el inicio de este proyecto se cuenta con la implementacion de la plataforma CCP que permite el envio y recepcion de bitcoins a traves de red Fermat. Utilizaremos las funcionaldades y componentes desarrollados para manejar negociaciones donde se desee comprar o vender Bitcoins
-
-
 ### Evaluation
 
 Para considerar este bounty exitoso se debe cumplir los Criterios de Aceptacion de los flujos expuestos anteriormente.
@@ -529,14 +528,14 @@ Para considerar este bounty exitoso se debe cumplir los Criterios de Aceptacion 
 
 ### Distribution by Contributor
 
-|Contributor           | Bounty Amount | 
-|----------------------|:----:|
-|Alejandro Bicelis     | 2100 |
-|Angel Veloz           | 2100 |
-|Guillermo Guitierrez  | 2100 |
-|Nelson Ramirez        | 2100 |
-|Yordin Da Rocha       | 2100 |
-|**Total**             | **10500 of 15000** |
+|Contributor          |Bounty Amount|
+|---------------------|:-----------:|
+|Alejandro Bicelis    |	2100 |
+|Angel Veloz 	      | 2100 |
+|Guillermo Guitierrez |	2100 |
+|Nelson Ramirez 	  | 2100 |
+|Yordin Da Rocha 	  | 2100 |
+|**Total**           | **10500 of 15000** |
 
 
 ### Distribution by Features 
@@ -557,8 +556,8 @@ Cada caracteristica expuesta mas arriba tiene un porcentaje que representa parte
 |Actualizar una negociacion                                    | 6% |
 |Cancelar una negociacion                                      | 4% |
 |Cerrar una Negociacion y crear un Contrato                    | 5% |
-|Procesar un contrato de Pago Online y Mercancia Offline       | 5% |
-|Procesar un contrato de Pago Offline y Mercancia Online       | 5% |
+|Procesar un contrato de Pago Offline y Mercancia Offline      | 5% |
+|Cerrar Contrato                                               | 5% |
 |CSH Platform                                                  | 5% |
 |BNK Platform                                                  | 5% |
 |CER Super Layer                                               | 4% |
