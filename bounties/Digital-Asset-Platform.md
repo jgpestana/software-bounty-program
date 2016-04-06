@@ -22,27 +22,27 @@ The development of this platform included three new wallets:
 - Redeem Point Wallet: wallet that stores the digital assets redeemed by an asset user. 
 
 
-And also included 7 sub apps:
+And also included 7 sub-apps:
 
-- Asset Issuer, User and Redeem Points identities: which helps identifies the actor type on the platform.
+- Asset Issuer, User and Redeem Points identities: which helps to identify the actor type on the platform.
 
-- Asset Issuer, User and Redeem Points Communities: which are used to connect the differents actors to allows interactions and asset flows.
+- Asset Issuer, User and Redeem Points Communities: which are used to connect the different actors to allows interactions and asset flows.
 
 - Asset Factory: that is used for the creation and definition of every asset in the platform.
 
 ## Evaluation
 
-During the evaluation of the bounty, all cycles and proceeses where tested and they included:
+During the evaluation of the bounty, all cycles and processes were tested and they included:
 
-- Creation and connection of all the actors using the Identities and Communities sub apps.
+- Creation and connection of all the actors using the Identities and Communities sub-apps.
 
-- Creation and Issuing of Assets with different properties using the Asset Factory sub app.
+- Creation and Issuing of Assets with different properties using the Asset Factory sub-app.
 
 - Delivery and appropiation of assets from the Asset Issuing wallet following the distribution and redemption flow on the Redeem Point.
 
-Not all connections where passed sucessfully and due to an overload of clients connecting to the Bitcoin nodes on the RegTest network, some transactions where not confirmed successfully.
+Not all connections were passed successfully and due to an overload of clients connecting to the Bitcoin nodes on the RegTest network, some transactions were not confirmed successfully.
 
-During internal tests it was assured that all described processes passed completelly without errors but on the Demo day, too many users using the Bitcoin nodes prevent us to completing all flows as expected.
+During internal tests it was assured that all described processes passed completely without errors but on the Demo day, too many users using the Bitcoin nodes prevented us from completing all flows as expected.
 
 The demo was recorded and can be visualized here: https://www.youtube.com/watch?v=QYlW-sgAiSE
 
@@ -57,15 +57,15 @@ For this bounty program, several teams worked together to acchieve the goal. The
 
 - Amount of days dedicated to the development: and objective score calculated from the start of the design and development process at 08/01/2015.
 
-- The engagement level evaluated by the team lead: a subjective score which considered dedication, late work during week days and week ends. Every behaviour that prooved will to reach the goal for Fermat and the bounty itself.
+- The engagement level evaluated by the team leader: a subjective score which considered dedication, late work during week days and week ends. Every behaviour that proved the will to reach the goal for Fermat and the bounty itself.
 
-- Key to reach goal: a subjective score taken by the team lead that express how important each member was to accomplish the goal due to the code that was written and maintained and the bugs that were fixed.
+- Key to reach goal: a subjective score taken by the team leader that expresses how important each member was for accomplishing the goal due to the code that was written and maintained and the bugs that were fixed.
 
-- Code difficulty: a subjective score that tries to recognize those who where able to be engaged in difficult code and still were able to pull it with out issues.
+- Code difficulty: a subjective score that tries to recognize those who were able to be engaged in difficult code and still were able to pull it without issues.
 
-- The team lead evaluation: a subjective score that must be used as constructive feedback by team members in order to understand where to focus on next bounties to improve performance.
+- The team leader evaluation: a subjective score that must be used as constructive feedback by team members in order to understand where to focus on next bounties to improve performance.
 
-The following table describes the wheight of each variable used to calculate the price distribution:
+The following table describes the weight of each variable used to calculate the price distribution:
 
 ### Variable weight matrix.
 
@@ -84,7 +84,7 @@ The total amount earn by this bounty is U$ 10,000 and it will be distributed as 
 
 ---
 
-| Github Username | # commits | Days in project | Eng Level | Key to reach goal | Code Diffi- culty | Team Lead Eva- luation | Points | % Bounty | U$S |
+| Github Username | # commits | Days in project | Eng Level | Key to reach goal | Code Difficulty | Team Leader Evaluation | Points | % Bounty | U$S |
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |javafrank|146|102|3|3|3|4|232|7%|**$732**
 |darkestpriest|258|92|8|5|8|7|496|15%|**$1475**
