@@ -12,6 +12,8 @@ The Fermat book chapters related to this bounty can be found here:[Chapter 16 - 
 
 ## Scope
 
+Segun lo acordado el 100% de Bounty para el proyecto CBP y sus Side Proyects se dividiran en dos versiones. La **Version 1**  representa el **70% del Bounty** y tantos sus features como criterios de aceptacion estan descritos en este documento; la **Version 2** representa el otro **30% del Bounty** y tantos sus features como criterios de aceptacion estan descritos en [este otro documento](https://github.com/Fermat-ORG/software-bounty-program/blob/master/bounties/Crypto_Broker_Platform_V2.md)
+
 ### CBP Platform
 
 La plataforma contara con las siguientes caracteristicas, apoyandose , cada una de ellas tiene una serie de Crterios de Aceptacion asi como componentes involucrados:
@@ -427,6 +429,11 @@ Componentes Involucrados:
 - Plataforma CSH, BNK y CCP
 
 
+### Current Development in Progress
+
+Para el inicio de este proyecto se cuenta con la implementacion de la plataforma CCP que permite el envio y recepcion de bitcoins a traves de red Fermat. Utilizaremos las funcionaldades y componentes desarrollados para manejar negociaciones donde se desee comprar o vender Bitcoins
+
+
 ### Related Projects To Develop
 
 Para el desarrollo de la funcionalidad con la que contará la plataforma CBP es necesaria la creacion de varios Side Projects los cuales se especifican a continuacion indicando el alcance de los mismos:
@@ -514,26 +521,32 @@ Criterios de Aceptacion:
  - Implementacion de la funcionalidad e integracion de la capa CER con la plataforma CBP
 
 
-### Current Development in Progress
+## Timeline
 
-Para el inicio de este proyecto se cuenta con la implementacion de la plataforma CCP que permite el envio y recepcion de bitcoins a traves de red Fermat. Utilizaremos las funcionaldades y componentes desarrollados para manejar negociaciones donde se desee comprar o vender Bitcoins
+Basado en la carga de trabajo y los recursos disponibles, la fecha del Demo Day a quedado fijada para el **31 de Marzo 2016**
 
 
 ### Evaluation
 
 Para considerar este bounty exitoso se debe cumplir los Criterios de Aceptacion de los flujos expuestos anteriormente.
 
+Durante el Demo Day se cumplieron los criterios de aceptación para los diferentes features descritos arriba. Al finalizar la presentación de Demo se llegaron a las siguientes concluciones:
+
+- Esta version del proyecto pasa a la fase de Beta Testing
+- Los projectos CSH, BNK y CER sera tratados como proyectos indenpendientes y cada uno tendra su propia fase Beta Testing
+- La fecha de inicio del Beta Testing para CBP, CSH, BNK, y CER estan por ser determinadas
+
 
 ### Distribution by Contributor
 
-|Contributor           | Bounty Amount | 
-|----------------------|:----:|
-|Alejandro Bicelis     | 3000 |
-|Angel Veloz           | 3000 |
-|Guillermo Guitierrez  | 3000 |
-|Nelson Ramirez        | 3000 |
-|Yordin Da Rocha       | 3000 |
-|**Total**             | **15000** |
+|Contributor          |Bounty Amount|
+|---------------------|:-----------:|
+|Alejandro Bicelis    |	2100 |
+|Angel Veloz 	      | 2100 |
+|Guillermo Guitierrez |	2100 |
+|Nelson Ramirez 	  | 2100 |
+|Yordin Da Rocha 	  | 2100 |
+|**Total**           | **10500 of 15000** |
 
 
 ### Distribution by Features 
@@ -548,18 +561,15 @@ Cada caracteristica expuesta mas arriba tiene un porcentaje que representa parte
 |Configuracion Previa (Wizard) de la Customer Reference Wallet | 3% |
 |Configurar la Broker Wallet                                   | 3% |
 |Configurar la Customer Wallet                                 | 3% |
-|Conectar un Crypto Customer con un Crypto Broker              | 6% |
-|Obtener cotizaciones de un Broker                             | 6% |
-|Permitir a un Crypto Customer iniciar una nueva Negociacion   | 8% |
-|Actualizar una negociacion                                    | 8% |
+|Conectar un Crypto Customer con un Crypto Broker              | 5% |
+|Obtener cotizaciones de un Broker                             | 5% |
+|Permitir a un Crypto Customer iniciar una nueva Negociacion   | 5% |
+|Actualizar una negociacion                                    | 6% |
 |Cancelar una negociacion                                      | 4% |
-|Cerrar una Negociacion y crear un Contrato                    | 7% |
-|Procesar un contrato de Pago Offline y Mercancia Offline      | 7% |
-|Procesar un contrato de Pago Online y Mercancia Offline       | 7% |
-|Procesar un contrato de Pago Offline y Mercancia Online       | 7% |
-|Cerrar Contrato                                               | 4% |
-|Extraccion de ganancias                                       | 6% |
+|Cerrar una Negociacion y crear un Contrato                    | 5% |
+|Procesar un contrato de Pago Offline y Mercancia Offline      | 5% |
+|Cerrar Contrato                                               | 5% |
 |CSH Platform                                                  | 5% |
 |BNK Platform                                                  | 5% |
 |CER Super Layer                                               | 4% |
-|**Total**                                                    | **100%** |
+|**Total**                                                    | **70% of 100%** |

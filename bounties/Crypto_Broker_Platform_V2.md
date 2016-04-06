@@ -14,6 +14,8 @@ Yo can also check the [Crypto Broker Platform (CBP) V1 Bounty Scope document](ht
 
 ## Scope
 
+Segun lo acordado el 100% de Bounty para el proyecto CBP y sus Side Proyects se dividiran en dos versiones. La **Version 2**  representa el **30% del Bounty** y tantos sus features como criterios de aceptacion estan descritos en este documento; la **Version 1** representa el otro **70% del Bounty** y tantos sus features como criterios de aceptacion estan descritos en [este otro documento](https://github.com/Fermat-ORG/software-bounty-program/blob/master/bounties/Crypto_Broker_Platform.md)
+
 ### CBP Platform
 
 La version 2 de esta plataforma contempla las siguientes caracteristicas, con sus correspondientes parametros de aceptacion:
@@ -143,12 +145,12 @@ Para considerar este bounty exitoso se debe cumplir los Criterios de Aceptacion 
 
 |Contributor          |Bounty Amount|
 |---------------------|:-----------:|
-|Alejandro Bicelis    |	To Define |
-|Angel Veloz 	      | To Define |
-|Guillermo Guitierrez |	To Define |
-|Nelson Ramirez 	  | To Define |
-|Yordin Da Rocha 	  | To Define |
-|**Total**           | **To Define** |
+|Alejandro Bicelis    |	900 |
+|Angel Veloz 	        | 900 |
+|Guillermo Guitierrez |	900 |
+|Nelson Ramirez 	    | 900 |
+|Yordin Da Rocha 	    | 900 |
+|**Total**            | **4500 of 15000** |
 
 
 ## Distribution by Feature
@@ -157,7 +159,7 @@ Cada caracteristica expuesta mas arriba tiene un porcentaje que representa parte
 
 |Features                                                | % | 
 |--------------------------------------------------------|:---------:|
-|Procesar un contrato de Pago Online y Mercancia Offline | To Define |
-|Procesar un contrato de Pago Offline y Mercancia Online | To Define |
-|Extraccion de ganancias                                 | To Define |
-|**Total**                                              | **To Define** |
+|Procesar un contrato de Pago Online y Mercancia Offline | 10% |
+|Procesar un contrato de Pago Offline y Mercancia Online | 10% |
+|Extraccion de ganancias                                 | 10% |
+|**Total**                                               | **30% of 100%** |
