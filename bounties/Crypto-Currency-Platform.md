@@ -4,14 +4,14 @@
 
 ## Introduction
 
--- An introduction of what this platform is.
+-- An introduction to explain what this platform is.
 Crypto Currency platform (CCP) enables the exchange of money in a simple way, it includes the reference wallet of all Fermat as well as its main flow, connecting Fermat and non-Fermat users.
 
 -- Link to the Fermat book.
 https://github.com/bitDubai/fermat-book/blob/master/book-chapter-12.asciidoc
 
--- Brief technical decription
-The bitcoin wallet is a day-to-day use wallet, having a bonus of connecting to the Femat network users. It allows sending bitcoins, requesting payment, receiving money through our safe double base channel; connection with the bitcoin network and the p2p-encrypted communication offered by our Fermat network. 
+-- Brief technical description
+The bitcoin wallet is a day-to-day use wallet, having a bonus of connecting to the Femat network users. It allows sending bitcoins, requesting payments, receiving money through our safe double base channel; connection with the bitcoin network and the p2p-encrypted communication offered by our Fermat network. 
 
 -- List of products involved
 
@@ -25,9 +25,9 @@ Intra Wallet User Community: This app allows people to find other crypto wallet 
 
 During the bounty evaluation, all cycles and processes were tested and they included:
 
-- Creation and connection of all the actors using the Identities and Communities sub apps.
-- Cancel and/or disconnect from a Fermat user.
-- Receiving and sending bitcoins from Fermat and non-Fermat users, through the Fermat network, sending of payment request, accepting and declining the requests.
+- Creation and connection of all the actors using the Identities and Communities sub-apps.
+- Cancellation and/or disconnection from a Fermat user.
+- Receiving and sending bitcoins from Fermat and non-Fermat users, through the Fermat network, sending of payment requests, accepting and declining the requests.
 
 --Link to the DEMO day video
 The demo was recorded and can be seen here: https://www.youtube.com/watch?v=fOUiEMS6z-4
