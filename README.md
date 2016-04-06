@@ -72,6 +72,7 @@ Below you can see a table with all current bounties available and their status.
 |All|Fermat P2P Network v1|  Mar 2016 | 20,000 | Fermat Tokens | Assigned Implementing ![Under Construction](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/under-construction.png "Under Construction")| Roberto & Leon | Apr 2016 | | 
 |All|Loss Protected Wallet| Mar 2016 | 10,000 | Fermat Tokens | Assigned Implementing ![Under Construction](https://raw.githubusercontent.com/Fermat-ORG/software-bounty-program/master/under-construction.png "Under Construction") | Natalia | Mar 2016 | | 
 |All|[Digital Assets Platform Architecture Design](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital%20Assets%20Platform%20Architecture%20Design.md)| Apr 2016 | TBD | Fermat Tokens | Assigned Arch Design | Thunder | | | 
+|All|[Digital Assets Platform V3](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital%20Assets%20Platform%20V3.md)| | TBD | Fermat Tokens | Assigned Arch Design | Skynet & Yayo Teams | | |
 |All|[Fermat Token Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Fermat-Token-Platform.md)|  | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |All|Digital Asset Store|  | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |All|Fermat Blockchain Identities|  | 25,000 | Fermat Tokens | Not Assigned | | | | 
