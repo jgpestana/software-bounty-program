@@ -107,7 +107,6 @@ Based on the current workload and resouces available, the delivery date of this 
 ​
 To be considered successful this bounty must pass the following tests:
 ​
-​
 * Create a Fan identity.
 * Create an Artist identity.
 * Create a Tokenly Identity.
@@ -117,6 +116,7 @@ To be considered successful this bounty must pass the following tests:
 * Display the list of songs purchased through the external management system of tokens.
 * Play a song on the device.
 ​
+
 *[Evaluation results to be completed after evaluation]*
 ​
 ## Limitations
