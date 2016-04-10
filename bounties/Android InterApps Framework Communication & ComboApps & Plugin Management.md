@@ -1,82 +1,82 @@
 ![alt text](https://github.com/bitDubai/media-kit/blob/master/MediaKit/Fermat%20Branding/Fermat%20Logotype/Fermat_Logo_3D.png "Fermat Logo")
 
-# Android InterApps Coomunication & Addons Development & ComboApps integration
+# Android InterApps Communication & Add-ons Development & ComboApps integration
 
 ## Introduction
 
-Android powers hundreds of millions of mobile devices in more than 190 countries around the world. It's the largest installed base of any mobile platform and growing fast—every day another million users power up their Android devices for the first time and start looking for apps, games, and other digital content.
-En noviembre de 2015 se pudieron observar 1.8 million apps, con más del 80% del mercado mobile en sus manos, Android es la plataforma perfecta para poder desarrollar el ecosistema Fermat y permitir que el universo de aplicaciones Android puedan interactuar y consumir los servicios que nuestro ecosistema brinda.
+Android powers hundreds of millions of mobile devices in more than 190 countries around the world. It's the largest installed base of any mobile platform and it’s growing fast—every day another million users power up their Android devices for the first time and start looking for apps, games, and other digital content.
+As of November 2015 there were about 1.8 million apps, with more than 80% of the mobile market on their hands, Android is the perfect platform to develop the Fermat ecosystem and allow the universe of Android applications to interact and consume the services provided by our ecosystem.
 
 ## Scope
 
 ### Bounty scope
 
-#### Android InterApps Framework Communication & ComboApps & Plugin Management.
+#### Android InterApps Framework Communication, ComboApps & Plug-in Management.
 
 #### Android InterApps Framework Communication:
 
-Es un framework de desarrollo e intercomunicación de aplicaciones por fuera de las fronteras del ecosistema de Fermat, Se debe crear la posibilidad de establecer conexion con incontables clientes a la vez, los cuales se registrarán a Fermat por medio de un token, se creará un canal para la comunicación entre Fermat y dichos clientes externos que corren en procesos distintos, permitiendo consumir los servicios de los plugins modules de Fermat.
-Las implementaciones a realizar serán las siguientes:
+Is a development and intercommunication framework of applications outside the Fermat ecosystem boundaries, we must create the possibility of stablishing connection with countless clients at a time, who will then register on Fermat using a token, a communication channel will be created between Fermat and those external clients that run in different processes, allowing the comsumption of the plug-in modules services of Fermat.
+The implementations will be the following:
 
-* ##### Refactor y mejora del framework de desarrollo de los Module y su comunicación con los componentes GUI, AbstractModule, Interfaces, Estructura de clases, todos estos elementos deben estar preparados para ser serializados y compartidos entre aplicaciones externas del ecosistema de Fermat.
-        * CryptoWalletModule has to be improve, En este plugin hay que realizar todos estos cambios
-        * CryptoWallet has to be improve, Esta es la interfaz la cual sirve de Proxy entre el core y los componentes GUI.
-        * IntraWalletUserIdentityManager has to be improve, El module de la wallet comsume servicios de dicho plugin por lo cual este tambien debe ser mejorado con todas las clases en su haber.
-        * IntraWalletUserManager (actor plugin) has to be improve, El module de la wallet comsume servicios de dicho plugin por lo cual este tambien debe ser mejorado con todas las clases en su haber.
-        * IntraWalletUserModule has to be improve, Mejoras en el module del actor para poder serializar los objetos finales que pueden transmitirse a traves de la interApps communication.
-        * IntraWalletUserIdentityModule has to be improve, Mejoras en el module del actor para poder serializar los objetos finales que pueden transmitirse a traves de la interApps communication. 
+* ##### Refactor and upgrade of the development of the module framework and its communication with the GUI components, AbstractModule, Interfaces, clases structure, all these elements must be prepared to be serialized and shared between external applications of the Fermat ecosystem.
+        * CryptoWalletModule has to be improved; in this plug-in we must make all these changes
+        * CryptoWallet has to be improved; this is the interface that serves as a Proxy between the core and the GUI components.
+        * IntraWalletUserIdentityManager has to be improved, the wallet module consumes services of such plug-in therefore this one must be upgraded as well with all of its classes.
+        * IntraWalletUserManager (actor plug-in) has to be improved, the wallet module consumes services of such plug-in therefore this one must be upgraded as well with all of its classes.
+        * IntraWalletUserModule has to be improved, upgrades in the actors module in order to serialize the final objects that can be transmitted through the interApps communication.
+        * IntraWalletUserIdentityModule has to be improved, upgrades in the actors module in order to serialize the final objects that can be transmitted through the interApps communication. 
         
 * Fermat Structure
         * WalletManager & SubAppManager have to be removed, AppManager creation and implementation.
         * Wallet runtime & SubApp runtime have to be removed, AppRuntime creation and implementation.
       
 
-* Mejoras a nivel del Android core:
-        * Creación de paquete y clases para la conexión entre apps externas con Fermat.
-        * Creación de Servicio de intercomunicación
-        * Implementación del Binder Framework
-        * Conexión con Fermat segura, autentificación, token.
+* Upgrade at Android core level:
+        * Package creation and classes for the connection between external apps and Fermat.
+        * Creation of intercommunication service.
+        * Implementation of the Binder Framework.
+        * Safe connection with Fermat, authentication, token.
 
-* Creación del entorno y división del primer proceso de Fermat en android OS
+* Creation of the environment and division of the first process of Fermat in the android OS
 
-* ##### Framework de comunicación de aplicaciónes externas.
-        * Paquetes y clases necesarias para conectarse con Fermat las cuales se encontrarán en un repositorio de maven y cualquier aplicación externa las podrá descargar.
-        * Clase base de comunicación Cliente.
-        * Api en Maven.
+* ##### Communication Framework of external applications.
+        * Packages and classes needed to connect with Fermat that will be found in a maven repository and that can be downloaded in any external application.
+        * Cliente Client communication base class.
+        * Api in Maven.
 
-* Apis de plataformas en Maven
-        * Se subiran todas las apis de plataforma a Maven para su fácil distribución entra aplicaciones externas.
+* Plataform Apis in Maven
+        * All the Maven platform apis will be uploaded for its easy distribution between external applications.
 
-*  Correr la propia bitcoin wallet por fuera del ecosistema Fermat como si fuera una aplicación externa.
-        * Siendo la primera aplicación de ejemplo.
+*  Run the bitcoin wallet outside of the Fermat ecosystem as it was an external application.
+        * The first application being an example.
         
         
 #### ComboApps implementation:
     
-    * Crear una layer para las ComboApps.
-    * Actualizar el Wallet
-    * Mejorar el Android core para soportar las aplicaciones con multiples modules.
-    * Crear la Actividad que permita dicho concepto.
-    * Mejorar el AppConnectionManager para soportar varios modules.
-    * Crear clase base de fragmentos multi modules
-    * Crear la primera ComboApp que consuma el module de la identity y de la community
+    * Create a layer for the ComboApps.
+    * Update the Wallet
+    * Upgrade the Android core to support applications with multiple modules.
+    * Create the Activity that will allow that concept.
+    * Upgrade the AppConnectionManager to support various modules.
+    * Create a base class of multi module fragments.
+    * Create the first ComboApp that consumes the identity and community module.
 
-#### Plugin Managment improvements:
+#### Plug-in Management improvements:
     
- * Creación de addons que brinden:
+ * Creation of add-ons that offer:
  
         * NetworkState
-        * Tipo de red
-        * Estado de la bateria
-        * Locación
-        * Estado del dispositivo (sleep,encendido)
-        * Estado de la aplicación (background, foreground)
+        * Network type
+        * Battery status
+        * Location
+        * Device status (sleep, on)
+        * Application status (background, foreground)
         
 * Command Processor Pattern for system services:
-        Se debe crear un framework de registro de servicios del sistema el cual los plugins puedan registrarse y escuchar eventos propios del sistema en el cual estan siendo ejecutados, como el estado de la bateria, estado de la conexión, tipo de red, entre otros.       
-        * Este diseño debe implementarse en el core de Fermat que sirve de Broker para los plugins.
+        We must create a system of service registry framework where the plu-ins could register and hear the system events where they are run, like battery status, connection status, and network type among others.       
+        * This design must be implemented in the Fermat core that works as a Broker for plug-ins.
 
-#### The following diagram describes the Android OS view of  InterApps Communications:
+#### The following diagram describes the Android OS view of InterApps Communications:
 
   ![alt text](https://raw.githubusercontent.com/Fermat-ORG/media-kit/master/Infographies/software%20arquitecture/software_arquitecture.png
  "Fermat Logo")
@@ -84,11 +84,12 @@ Las implementaciones a realizar serán las siguientes:
   
   ## Timeline
 
-Based on current workload and resouces available, the delivery date of this bounty will be **April 30th**.
+Based on current workload and resources available, the delivery date for this bounty will be **April 30th**.
 
 ## Evaluation
 
-To be considered success this bounty must pass the following tests:
-  * Aplicación de muestra corriendo la bitcoin wallet por fuera de Fermat conectandose con la propia plataforma, autentificandose y pasando los tokens de seguridad.
-  * ComboApp Corriendo dentro de Fermat consumiendo los modules de la identity y community
-  * Plugin mejorado con los nuevos servicios que brinda el sistema para detectar estado.
+To be considered successful this bounty must pass the following tests:
+  * Test app running the bitcoin wallet outside of Fermat connecting with the platform, authenticating and passing the security tokens.
+  * ComboApp running inside of Fermat consuming the identity and community modules.
+  * Upgraded Plug-in with the new services the system offers to detect status.
+
