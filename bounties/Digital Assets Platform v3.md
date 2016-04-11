@@ -27,7 +27,9 @@ Implement the architecture defined for **DAP** at [dev.fermat.org](http://dev.fe
 
     Assets will be accepted by default, but this behaivour can be changed in the wallet settings section.
     
-* TBD
+* **Migration of handling outgoing crypto transactions with events**: currently incoming transactions are handled with events, but for outgoing transactions each specific platform transaction plugin, request the CryptoNetwork for status. We will handle outgoing transactions equally.
+
+* **Bitcoin fees**: fees when sending bitcoins is not specified, we will enable BCH and DAP to support fee specification when sending bitcoins.
 
 ## Coding guidelanes
 
