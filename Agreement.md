@@ -27,6 +27,8 @@ This feature is about…
 **Size:** 55%  
 **Fermat components:** Component d, component e.
 
+Also, explain the work that is excluded of this project version.
+
 ## EVALUATION
 Provide the acceptance criteria for the features described on the scope.
 
@@ -62,7 +64,7 @@ Provide the acceptance criteria for the features described on the scope.
  
 - **Beta testing penalty:** __% of the bounty for each calendar day elapses after the due date without formal acceptance from the @beta-testing-team. This penalty will be paid by the development team from the implementation bounty to the beta testing team.
  
-- **Beta testing bounty:** The beta testing bounty will be __% of the total bounty. It could be awarded to the development team if it passes the beta testing on time or by @beta-testing-team if fails. It implies that development team will not get this bounty unless it succeeds in the beta testing process.
+- **Beta testing bounty:** The beta testing bounty will be 30% of the total bounty. It could be awarded to the development team if it passes the beta testing on time or by @beta-testing-team if fails. It implies that development team will not get this bounty unless it succeeds in the beta testing process.
 
 ## TOTAL BOUNTY
 The total amount of the bounty in Fermat tokens for this project (functionality + beta testing).
