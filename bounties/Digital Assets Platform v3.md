@@ -110,6 +110,32 @@ All existing transactions will be tested:
 
 * Code check that the proposed architecture was followed.
 
+### 2- GUI re design:  
+
+Implementation of the following GitHub Issues:
+
+* [Wallet Issuer](https://github.com/Fermat-ORG/fermat-graphic-design/issues/582)
+* [Wallet Asset User](https://github.com/Fermat-ORG/fermat-graphic-design/issues/570)
+* [Wallet Redeem Point](https://github.com/Fermat-ORG/fermat-graphic-design/issues/577)
+* [Asset Factory](https://github.com/Fermat-ORG/fermat-graphic-design/issues/511)
+
+### 3- bitDubai Refactor:
+
+Code Revision that no plugin has bitDubai in it.
+
+### 4- Incoming Assets Notification:  
+
+* Switch off Settings that accepts Assets by default in Redeem Point Wallet and verify that we are requested to Accept or Deny an incoming asset.
+
+### 5- Outgoing Crypto Transaction events:  
+
+* Technical review that events are launched for confirmation of outgoing transactions.
+
+### 6- Bitcoin Fees specification:  
+
+* From the Asset User Wallet, redeem and asset specifying to pay the Fee from the Bitcoin Wallet, and validate the asset value remains the same and a credit was done on the Bitcoin Wallet for the total amount of the fee.
+
+
 
 ## TERMS AND CONDITIONS: 
 
@@ -119,15 +145,15 @@ All existing transactions will be tested:
  
 3.    The team agrees to complete the functionality on the following conditions:
  
-- **Implementation due date:** All the features will be finished before __ __ __
+- **Implementation due date:** All the features will be finished before May 31th.
  
-- **Implementation collateral deposit:** The team agrees to deposit the amount of ________ tokens, as a collateral to be lost if this part project is not approved before the due date.
+- **Implementation collateral deposit:** The team agrees to deposit the amount of 5000 U$S, as a collateral to be lost if this part project is not approved before the due date.
  
-- **Implementation margin:** No penalties are applied ___ calendar days after implementation due date.
+- **Implementation margin:** No penalties are applied 0 calendar days after implementation due date.
  
-- **Implementation penalty:** __% of the bounty for each calendar day elapses after the due date without formal acceptance from the @bounty-program-team.  
+- **Implementation penalty:** 5 % of the bounty for each calendar day elapses after the due date without formal acceptance from the @bounty-program-team.  
  
-- **Implementation bounty:** The functionality will be __% of the total bounty. This bounty will be awarded to the development team when the @bounty-program-team considers that the functionality delivered is done.
+- **Implementation bounty:** The functionality will be 90 % of the total bounty. This bounty will be awarded to the development team when the @bounty-program-team considers that the functionality delivered is done.
  
 4. The team understands and accepts that beta testing will be conducted by the @beta-testing-team.
  
@@ -146,7 +172,7 @@ All existing transactions will be tested:
 - **Beta testing bounty:** The beta testing bounty will be __% of the total bounty. It could be awarded to the development team if it passes the beta testing on time or by @beta-testing-team if fails. It implies that development team will not get this bounty unless it succeeds in the beta testing process.
 
 ## TOTAL BOUNTY
-The total amount of the bounty in Fermat tokens for this project (functionality + beta testing).
+The total amount of the bounty in Fermat tokens for this project (functionality + beta testing) is **30000**
 
 ## DISTRIBUTION OF BOUNTY BY CONTRIBUTOR
 The distribution of the bounty (once awarded).
