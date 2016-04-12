@@ -90,7 +90,26 @@ Asset transactions fee is payed from the Asset Vault using Bitcoins from the Ass
 
 
 ## EVALUATION
-Provide the acceptance criteria for the features described on the scope.
+
+### 1- Architecture re design: 
+All existing transactions will be tested:
+
+* Asset Issuing: being able to create Assets from the Asset Factory.
+
+* Asset Distribution: transfer assets to an Asset User
+
+* Asset Transfer: transfer assets between Asset Users.
+
+* Asset Sell: sell an asset to an Asset User.
+
+* Asset Redemption: redeem an asset to a Redeem Point.
+
+* Asset Break, break an asset in Asset User, Asset Issuer and automatically after being expired.
+
+* Statistics updated for all previous operations at Asset Issuer.
+
+* Code check that the proposed architecture was followed.
+
 
 ## TERMS AND CONDITIONS: 
 
