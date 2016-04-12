@@ -1,60 +1,133 @@
-![alt text](https://github.com/bitDubai/media-kit/blob/master/MediaKit/Fermat%20Branding/Fermat%20Logotype/Fermat_Logo_3D.png "Fermat Logo")
+# BOUNTY PROGRAM AGREEMENT
 
-# Digital Asset Platform v3 Bounty
+## PROJECT NAME
+Digital Asset Platform
 
-## Introduction
+## VERSION
+3.0
 
+## ABSTRACT
 There is no doubt that the Digital Asset Platform is on the critical path to the sucess of our project. As Fermat evolves and new architecture is designed an implemented in all platforms, DAP must follow this approach and improve itself to acommodate future changes.
 
 This bounty is mainly an architecture improvement following new guidelines to modularize our processes into smaller pieces and enable reutilization, optimization and prepare for future transactions that DAP will be supporting shortly.
 
-## Scope
-
-### New Architecture implementation
-
-Implement the architecture defined for **DAP** at [dev.fermat.org](http://dev.fermat.org)
 
 
-### New User Interfaces in all three wallets and sub apps
+## SCOPE
 
-[Links to github issues with new interfaces.]
+### 1- Architecture re design:  
+New architecture implementation as in [dev.fermat.org](http://dev.fermat.org). Full implementation of 33 new plugins.
 
-### Extras
+**Size:** 40%  
+**Fermat components:** 
 
-* **Refactor Remove BitDubai references from all plugins**: references to bitDubai will be removed from DAP.
+* Asset Miner Agent
+* Asset Transfer, Asset Redemption, Asset Distribution, Asset Issuing, Asset Fixed Bitcoin Price Direct Private Sell and Asset Break User Business Transactions
+* Asset Hold and Asset Unhold Business Transactions.
+* Multi Transaction Asset Issuing, Asset Break and Asset Transfer Digital Asset Transactions
+* Incoming Asset Offer and Outgoing Asset Offer Transaction
+* Asset For Bitcoin and Bitcoin For Asset Swap Transactions
+* Incoming Asset Metadata and Outgoing Asset Metadata
+* Incoming Crypto Transaction and Outgoin Crypto Transaction
+* Asset Issuer Statisc Aggregator
+* Asset Transfer, Asset Issuing and Asset Swap Statistics Collector.
+* Asset Specific Offer
+* Digital Asset Metadata
+* Asset Issuer, Asset User and Redeem Point Actor Connection.
+* Statistics and Offer Network Services.
 
-* **Implement Wallet notifications for incomming assets**:  Asset Users and Redeem Points will have the option to accept (or deny) assets before receiving them. We will enable Wallet notifications. 
+### 2- GUI re design:  
+Graphic improvements to Wallets and sub apps.
 
-    Assets will be accepted by default, but this behaivour can be changed in the wallet settings section.
-    
-* **Migration of handling outgoing crypto transactions with events**: currently incoming transactions are handled with events, but for outgoing transactions each specific platform transaction plugin, request the CryptoNetwork for status. We will handle outgoing transactions equally.
+**Size:** 30%  
+**Fermat components:** 
 
-* **Bitcoin fees**: fees when sending bitcoins is not specified, we will enable BCH and DAP to support fee specification when sending bitcoins.
+* Asset Issuer Wallet
+* Asset User Wallet
+* Redeem Point Wallet
+* Asset Factory
 
-## Coding guidelanes
+### 3- bitDubai Refactor:  
+Refactoring existing plugins to remove bitDubai name from components. 
 
-* Agents will only be running when there are task to do, and will be stopped as soon as there are no pending request. We are avoiding having agent threads just wainting for things to do.
+**Size:** 0%  
+**Fermat components:** 
 
-* Agents will no longer run under the ```while(true)``` schema. Instead we will be using ```ScheduledExecutorService``` to optimize this process.
+* All existing plugins.
 
-* All agents must implement the ```stop``` method
+### 4- Incoming Assets Notification:  
+Add funcionality to allow an asset receiver to choose or deny reception of a new asset. Changes include adding:
 
-* Transaction plugins must raise **events** when their task is completed, either by success or not, to allow other components use this information.
-
-* Overall transaction progress must be tracked by higher level **Transaction Layers** at all times.
-
-* **Plugin root** classes must only serve to pass platform references, implementation of component tasks must be in the *structure folder *inside the plugin.
-
-     
-
-## Timeline
-
-31th May 2016
-
-## Evaluation
+* Settings to specify if assets are accepted by default.
+* Include notifications for incoming assets.
+* Modify transactions flow to enable user response.
 
 
-## Distribution
+**Size:** 10%  
+**Fermat components:** 
+
+* Asset Transfer, Asset Distribution, Asset Redemption transactions.
+* Asset User and Redeem Point wallets.
+
+### 5- Outgoing Crypto Transaction events:  
+Currently only incoming crypto transactions are handled by raising events from the Crypto Reouter plugin. We are going to improve the Outgoing transactions process by using the same procedure.
+
+**Size:** 5%  
+**Fermat components:** 
+
+* Incoming Crypto Transaction and Outgoing Crypto Transaction DAP plugins.
+* Crypto Router and CryptoNetwork plugines in BCH platform.
+
+### 6- Bitcoin Fees specification:  
+Asset transactions fee is payed from the Asset Vault using Bitcoins from the Asset. We want to improve this by giving the user the chance to pay the bitcoin transaction fee from the Bitcoin Vault.
+
+**Size:** 15%  
+**Fermat components:** 
+
+* Bitcoin and Asset Vaults.
+* Asset Transfer, Asset Distribution, Asset Redemption transactions.
+* Asset User and Asset Issuer wallets.
 
 
+## EVALUATION
+Provide the acceptance criteria for the features described on the scope.
 
+## TERMS AND CONDITIONS: 
+
+1.   The team agrees that project has two parts: functionality and beta testing.
+ 
+2.  The team understands and accepts that the functionality will be considered done when all the features described on the scope of this agreement are completed and tested in an alpha stage.
+ 
+3.    The team agrees to complete the functionality on the following conditions:
+ 
+- **Implementation due date:** All the features will be finished before __ __ __
+ 
+- **Implementation collateral deposit:** The team agrees to deposit the amount of ________ tokens, as a collateral to be lost if this part project is not approved before the due date.
+ 
+- **Implementation margin:** No penalties are applied ___ calendar days after implementation due date.
+ 
+- **Implementation penalty:** __% of the bounty for each calendar day elapses after the due date without formal acceptance from the @bounty-program-team.  
+ 
+- **Implementation bounty:** The functionality will be __% of the total bounty. This bounty will be awarded to the development team when the @bounty-program-team considers that the functionality delivered is done.
+ 
+4. The team understands and accepts that beta testing will be conducted by the @beta-testing-team.
+ 
+5.  The team understands and accepts that criteria to pass beta testing are: no bug issues on beta testing due date or in a period of three (3) consecutive calendar days before the due date.
+ 
+6.   The team agrees to complete the beta testing on the following conditions:
+ 
+- **Beta testing due date:** Beta testing will be passed __ calendar days after getting the formal acceptance of functionality from @bounty-program-team.
+ 
+- **Beta testing collateral deposit:** The team agrees to deposit the amount of ________ tokens, as a collateral to be lost if this part of the project is not approved before the due date.
+ 
+- **Beta testing margin:** No penalties are applied ___ calendar days after the beta testing due date.
+ 
+- **Beta testing penalty:** __% of the bounty for each calendar day elapses after the due date without formal acceptance from the @beta-testing-team. This penalty will be paid by the development team from the implementation bounty to the beta testing team.
+ 
+- **Beta testing bounty:** The beta testing bounty will be __% of the total bounty. It could be awarded to the development team if it passes the beta testing on time or by @beta-testing-team if fails. It implies that development team will not get this bounty unless it succeeds in the beta testing process.
+
+## TOTAL BOUNTY
+The total amount of the bounty in Fermat tokens for this project (functionality + beta testing).
+
+## DISTRIBUTION OF BOUNTY BY CONTRIBUTOR
+The distribution of the bounty (once awarded).
