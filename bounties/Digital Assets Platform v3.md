@@ -145,15 +145,15 @@ Code Revision that no plugin has bitDubai in it.
  
 3.    The team agrees to complete the functionality on the following conditions:
  
-- **Implementation due date:** All the features will be finished before May 31th.
+- **Implementation due date:** All the features will be finished before **May 31th**.
  
-- **Implementation collateral deposit:** The team agrees to deposit the amount of 5000 U$S, as a collateral to be lost if this part project is not approved before the due date.
+- **Implementation collateral deposit:** The team agrees to deposit the amount of **5000 U$S**, as a collateral to be lost if this part project is not approved before the due date.
  
-- **Implementation margin:** No penalties are applied 0 calendar days after implementation due date.
+- **Implementation margin:** No penalties are applied **0** calendar days after implementation due date.
  
-- **Implementation penalty:** 5 % of the bounty for each calendar day elapses after the due date without formal acceptance from the @bounty-program-team.  
+- **Implementation penalty:** **5 %** of the bounty for each calendar day elapses after the due date without formal acceptance from the @bounty-program-team.  
  
-- **Implementation bounty:** The functionality will be 90 % of the total bounty. This bounty will be awarded to the development team when the @bounty-program-team considers that the functionality delivered is done.
+- **Implementation bounty:** The functionality will be **70 %** of the total bounty. This bounty will be awarded to the development team when the @bounty-program-team considers that the functionality delivered is done.
  
 4. The team understands and accepts that beta testing will be conducted by the @beta-testing-team.
  
@@ -161,15 +161,15 @@ Code Revision that no plugin has bitDubai in it.
  
 6.   The team agrees to complete the beta testing on the following conditions:
  
-- **Beta testing due date:** Beta testing will be passed __ calendar days after getting the formal acceptance of functionality from @bounty-program-team.
+- **Beta testing due date:** Beta testing will be passed **15** calendar days after getting the formal acceptance of functionality from @bounty-program-team.
  
-- **Beta testing collateral deposit:** The team agrees to deposit the amount of ________ tokens, as a collateral to be lost if this part of the project is not approved before the due date.
+- **Beta testing collateral deposit:** The team agrees to deposit the amount of **0** tokens, as a collateral to be lost if this part of the project is not approved before the due date.
  
-- **Beta testing margin:** No penalties are applied ___ calendar days after the beta testing due date.
+- **Beta testing margin:** No penalties are applied **0** calendar days after the beta testing due date.
  
-- **Beta testing penalty:** __% of the bounty for each calendar day elapses after the due date without formal acceptance from the @beta-testing-team. This penalty will be paid by the development team from the implementation bounty to the beta testing team.
+- **Beta testing penalty:** **5%** of the bounty for each calendar day elapses after the due date without formal acceptance from the @beta-testing-team. This penalty will be paid by the development team from the implementation bounty to the beta testing team.
  
-- **Beta testing bounty:** The beta testing bounty will be __% of the total bounty. It could be awarded to the development team if it passes the beta testing on time or by @beta-testing-team if fails. It implies that development team will not get this bounty unless it succeeds in the beta testing process.
+- **Beta testing bounty:** The beta testing bounty will be **30%** of the total bounty. It could be awarded to the development team if it passes the beta testing on time or by @beta-testing-team if fails. It implies that development team will not get this bounty unless it succeeds in the beta testing process.
 
 ## TOTAL BOUNTY
 The total amount of the bounty in Fermat tokens for this project (functionality + beta testing) is **30000**
