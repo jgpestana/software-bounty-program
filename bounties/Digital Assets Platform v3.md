@@ -79,7 +79,9 @@ Currently only incoming crypto transactions are handled by raising events from t
 * Crypto Router and CryptoNetwork plugines in BCH platform.
 
 ### 6- Bitcoin Fees specification:  
-Asset transactions fee is payed from the Asset Vault using Bitcoins from the Asset. We want to improve this by giving the user the chance to pay the bitcoin transaction fee from the Bitcoin Vault.
+Transaction fee is currently defined broadly in the platform. Bitcoin senders must be able to specify the fee amount to decide how fast the transaction will be confirmed by miner.
+
+Also, Asset transactions fee is payed from the Asset Vault using Bitcoins from the Asset. We want to improve this by giving the user the chance to pay the bitcoin transaction fee from the Bitcoin Vault.
 
 **Size:** 15%  
 **Fermat components:** 
@@ -172,7 +174,7 @@ Code Revision that no plugin has bitDubai in it.
 - **Beta testing bounty:** The beta testing bounty will be **30%** of the total bounty. It could be awarded to the development team if it passes the beta testing on time or by @beta-testing-team if fails. It implies that development team will not get this bounty unless it succeeds in the beta testing process.
 
 ## TOTAL BOUNTY
-The total amount of the bounty in Fermat tokens for this project (functionality + beta testing) is **30000**
+The total amount of the bounty in Fermat tokens for this project (functionality + beta testing) is **50000**
 
 ## DISTRIBUTION OF BOUNTY BY CONTRIBUTOR
 The distribution of the bounty (once awarded).
