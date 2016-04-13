@@ -41,7 +41,6 @@ We adhere to the following definitions:
 6. If the @bounty-program-team sees a lack of commitment of a team with the project assigned or a the progress is too slow, it might cancel the assigment and return the project to the pool of _Not Assigned_ bounties.
 7. For implementation projects, at a DEMO-DAY the team showcases the functionality that has developed. Previously a project manager will check the deliverables to see if they comply with the acceptance guidelines stated at the bounty agreement.
 8. The payment of the bounty will be done when the project is released to general public (production). The amount of Tokens to receive will be calculated at the Tokens price at the date the project is released to the public.
-9. Architecture Design deliverables includes the component architecture and workflows created in the Analitycs System and the Interfaces in the API library of the platform involved. 
 
 ## 2016 Bounties
 
